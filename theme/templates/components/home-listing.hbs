@@ -1,0 +1,47 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
+
+<div class="home-listing">
+  {{#each posts as |post|}}
+  <article class="post post--{{post.type}}">
+    <header class="post-header">
+      <a class="post-category-name" href="{{post.category.permalink}}">
+        {{post.category.name}}
+      </a>
+      <h2 class="post-title">
+        <a class="post-title-link" href="{{post.permalink}}">{{post.title}}</a>
+      </h2>
+      <p class="post-released">Released {{post.publishDateMedium}}</p>
+    </header>
+    {{#if post.cover}}
+    <a href="{{post.cover}}" class="post-cover">
+      <img
+          class="post-cover-image {{#if post.coverShape}}shape-{{post.coverShape}}{{/if}}"
+          {{#if post.coverPosition}}
+          style="--cover-position: {{post.coverPosition}};"
+          {{/if}}
+          src="{{post.cover}}"
+          alt="{{post.coverAlt}}">
+    </a>
+    {{/if}}
+    {{#if post.spotify}}
+      <iframe class="post-spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie?theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    {{/if}}
+    {{{post.summary}}}
+  </article>
+
+  {{/each}}
+
+  {{#with pagination}}
+    <div class="pagination">
+      {{#if previousPage}}
+        <a href="{{previousPage}}">« {{lookup "previousPage"}}</a>
+      {{/if}}
+      {{#if nextPage}}
+        <a href="{{nextPage}}">{{lookup "nextPage"}} »</a>
+      {{/if}}
+    </div>
+  {{/with}}
+</div>

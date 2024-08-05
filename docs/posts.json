@@ -1,0 +1,180 @@
+[
+  {
+    "type": "album",
+    "title": "Ân'a akım",
+    "cover": "/upstairs-is-boiling/album/ana-akim/Ân'a akım albüm kapak resmi.jpg",
+    "media": "",
+    "summary": "",
+    "tags": [],
+    "coverAlt": "An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: \"ANA AKIM\". In funky and warm typing, it says: \"upstairs is boiling\".",
+    "spotify": "https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie",
+    "date": "08.17.2024",
+    "slug": "ana-akim",
+    "permalink": "/upstairs-is-boiling/album/ana-akim",
+    "category": {
+      "name": "albüm",
+      "permalink": "/upstairs-is-boiling/album"
+    },
+    "path": "albüm/Ân'a akım/post.md",
+    "handle": "albüm/Ân'a akım",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "Ân'a akım albüm kapak resmi.jpg",
+        "path": "albüm/Ân'a akım/Ân'a akım albüm kapak resmi.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2024-08-16T21:00:00.000Z",
+    "publishDateUTC": "Fri, 16 Aug 2024 21:00:00 GMT",
+    "publishDateFull": "Saturday, August 17, 2024",
+    "publishDateLong": "August 17, 2024",
+    "publishDateMedium": "Aug 17, 2024",
+    "publishDateShort": "8/17/24",
+    "links": {
+      "previousPost": {
+        "title": "Ona yakın",
+        "permalink": "/upstairs-is-boiling/album/ona-yakin"
+      },
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "single",
+    "title": "Mona",
+    "cover": "/upstairs-is-boiling/single/mona/kapak.jpg",
+    "media": "",
+    "summary": "",
+    "tags": [],
+    "coverAlt": "Kapak",
+    "spotify": "https://open.spotify.com/embed/track/1Ma4fLShd0hpZSNH37mEkR",
+    "date": "03.21.2024",
+    "slug": "mona",
+    "permalink": "/upstairs-is-boiling/single/mona",
+    "category": {
+      "name": "single",
+      "permalink": "/upstairs-is-boiling/single"
+    },
+    "path": "single/Mona/post.md",
+    "handle": "single/Mona",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "kapak.jpg",
+        "path": "single/Mona/kapak.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2024-03-20T21:00:00.000Z",
+    "publishDateUTC": "Wed, 20 Mar 2024 21:00:00 GMT",
+    "publishDateFull": "Thursday, March 21, 2024",
+    "publishDateLong": "March 21, 2024",
+    "publishDateMedium": "Mar 21, 2024",
+    "publishDateShort": "3/21/24",
+    "links": {
+      "previousPost": {
+        "title": "Lisa",
+        "permalink": "/upstairs-is-boiling/single/lisa.html"
+      },
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "album",
+    "title": "Ona yakın",
+    "cover": "/upstairs-is-boiling/album/ona-yakin/ona yakın mobil.png",
+    "media": "",
+    "summary": "",
+    "tags": [],
+    "coverAlt": "Mobil mockup",
+    "spotify": "https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie",
+    "date": "11.22.2023",
+    "slug": "ona-yakin",
+    "permalink": "/upstairs-is-boiling/album/ona-yakin",
+    "category": {
+      "name": "albüm",
+      "permalink": "/upstairs-is-boiling/album"
+    },
+    "path": "albüm/On'a yakın/post.md",
+    "handle": "albüm/On'a yakın",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "kapak.jpg",
+        "path": "albüm/On'a yakın/kapak.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      },
+      {
+        "name": "ona yakın mobil.png",
+        "path": "albüm/On'a yakın/ona yakın mobil.png",
+        "depth": 2,
+        "extension": ".png",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2023-11-21T21:00:00.000Z",
+    "publishDateUTC": "Tue, 21 Nov 2023 21:00:00 GMT",
+    "publishDateFull": "Wednesday, November 22, 2023",
+    "publishDateLong": "November 22, 2023",
+    "publishDateMedium": "Nov 22, 2023",
+    "publishDateShort": "11/22/23",
+    "links": {
+      "nextPost": {
+        "title": "Ân'a akım",
+        "permalink": "/upstairs-is-boiling/album/ana-akim"
+      },
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "single",
+    "title": "Lisa",
+    "cover": "",
+    "media": "",
+    "summary": "",
+    "tags": [],
+    "spotify": "https://open.spotify.com/embed/track/1Ma4fLShd0hpZSNH37mEkR",
+    "date": "09.21.2022",
+    "slug": "lisa",
+    "permalink": "/upstairs-is-boiling/single/lisa.html",
+    "category": {
+      "name": "single",
+      "permalink": "/upstairs-is-boiling/single"
+    },
+    "path": "single/Lisa.md",
+    "handle": "single/Lisa",
+    "foldered": false,
+    "localAssets": [],
+    "publishDate": "2022-09-20T21:00:00.000Z",
+    "publishDateUTC": "Tue, 20 Sep 2022 21:00:00 GMT",
+    "publishDateFull": "Wednesday, September 21, 2022",
+    "publishDateLong": "September 21, 2022",
+    "publishDateMedium": "Sep 21, 2022",
+    "publishDateShort": "9/21/22",
+    "links": {
+      "nextPost": {
+        "title": "Mona",
+        "permalink": "/upstairs-is-boiling/single/mona"
+      },
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  }
+]

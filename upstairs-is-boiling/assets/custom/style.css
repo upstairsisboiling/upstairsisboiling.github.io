@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+    --black: #010800;
+    --white: #fef8ff;
+}
+
+body {
+    margin: 0;
+    font-size: 100%;
+}
+
+h2 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.svg-symbols {
+    display: none;
+}
+
+
+[data-region-id="container"] {
+    background: var(--black);
+    color: var(--white);
+}
+
+
+[data-region-id="header"] {
+    width: 100%;
+    height: 160px;
+}
+
+.header-logo {
+    margin: 0;
+    height: 100%;
+    float: left;
+}
+
+.header-logo-image {
+    max-height: 100%;
+    color: transparent;
+    stroke-width: 1;
+    stroke: #ff80c0;
+    stroke-dasharray: 40;
+    stroke-linecap: round;
+    stroke-dashoffset: 0;
+    animation: header-logo-stroke .5s linear forwards;
+}
+
+.header-logo-image:hover {
+    stroke-width: 2;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0;
+    color: transparent;
+    animation: none;
+}
+
+@keyframes header-logo-stroke {
+    70% {
+        color: transparent;
+    }
+    30% {
+        stroke-width: 6;
+    }
+    95% {
+        stroke-width: 1;
+    }
+    to {
+        stroke-width: 0;
+        stroke-dasharray: 120;
+        stroke-dashoffset: -30;
+        stroke: #fdbe39;
+        color: #ffab2a;
+    }
+}
+
+.header-categories {
+    opacity: 0;
+}
+
+.header-category-link {}
+
+.homepage [data-region-id="header"] {
+    position: absolute;
+}
+
+[data-region-id="main"] {}
+
+.home-listing {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.home-listing .post {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 10vh 0em 0;
+    gap: 5vw;
+}
+
+.home-listing .post-header {
+    grid-column: span 2;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+}
+
+.post-category-name {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    color: hotpink;
+    text-decoration: none;
+    font-family: monospace;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+}
+
+.home-listing .post-title {
+    color: var(--white);
+    font-size: clamp(18px, 128px, 10vw);
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.home-listing .post-title-link {
+    color: inherit;
+}
+
+.home-listing .post-cover {
+    width: 40vmin;
+    justify-self: end;
+}
+
+.home-listing .post-spotify {
+    width: 40vmin !important;
+    height: 50vmin !important;
+    justify-self: start;
+}

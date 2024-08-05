@@ -1,0 +1,15 @@
+<h1 class="header-logo">
+  <a href="{{permalinkPrefix}}">
+    <svg class="header-logo-image" alt="Anasayfaya git">
+      <use xlink:href="#logo-symbol"></use>
+    </svg>
+  </a>
+</h1>
+
+<nav class="header-categories">
+    {{#each categories as |category|}}
+        <a class="header-category-link" href="{{category.permalink}}">
+            {{category.name}}
+        </a>
+    {{/each}}
+</nav>
