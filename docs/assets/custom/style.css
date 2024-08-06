@@ -73,7 +73,7 @@ img {
     to {
         stroke-width: 0;
         stroke-dasharray: 120;
-        stroke-dashoffset: -30;
+        stroke-dashoffset: -25;
         stroke: var(--logo-color);
         color: var(--logo-color);
     }
