@@ -5,7 +5,7 @@
 
 <div class="home-listing">
   {{#each posts as |post|}}
-  <article class="post post--{{post.type}}">
+  <article class="post post--{{post.type}}" style="{{attachColorVariables post}}">
     <header class="post-header">
       <a class="post-category-name" href="{{post.category.permalink}}">
         {{post.category.name}}
@@ -16,18 +16,12 @@
       <p class="post-released">Released {{post.publishDateMedium}}</p>
     </header>
     {{#if post.cover}}
-    <a href="{{post.cover}}" class="post-cover">
-      <img
-          class="post-cover-image {{#if post.coverShape}}shape-{{post.coverShape}}{{/if}}"
-          {{#if post.coverPosition}}
-          style="--cover-position: {{post.coverPosition}};"
-          {{/if}}
-          src="{{post.cover}}"
-          alt="{{post.coverAlt}}">
+    <a href="{{post.cover}}" class="post-cover {{#if post.spotify}}{{else}}post-cover-only{{/if}}">
+      <img class="post-cover-image" src="{{post.cover}}" alt="{{post.coverAlt}}">
     </a>
     {{/if}}
     {{#if post.spotify}}
-      <iframe class="post-spotify" style="border-radius:12px" src="https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie?theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe class="post-spotify {{#if post.cover}}{{else}}post-spotify-only{{/if}}" style="border-radius:12px;" src="{{post.spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     {{/if}}
     {{{post.summary}}}
   </article>

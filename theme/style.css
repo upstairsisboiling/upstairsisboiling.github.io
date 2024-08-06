@@ -5,6 +5,7 @@
 :root {
     --black: #010800;
     --white: #fef8ff;
+    --logo-color: #fdbe39;
 }
 
 body {
@@ -26,10 +27,7 @@ img {
 }
 
 
-[data-region-id="container"] {
-    background: var(--black);
-    color: var(--white);
-}
+[data-region-id="container"] {}
 
 
 [data-region-id="header"] {
@@ -76,8 +74,8 @@ img {
         stroke-width: 0;
         stroke-dasharray: 120;
         stroke-dashoffset: -30;
-        stroke: #fdbe39;
-        color: #ffab2a;
+        stroke: var(--logo-color);
+        color: var(--logo-color);
     }
 }
 
@@ -101,6 +99,9 @@ img {
 }
 
 .home-listing .post {
+    --background-color: var(--black);
+    --text-color: var(--white);
+    --accent-color: hotpink;
     height: 100vh;
     scroll-snap-align: start;
     display: grid;
@@ -110,6 +111,8 @@ img {
     align-items: center;
     padding: 10vh 0em 0;
     gap: 5vw;
+    background: var(--background-color);
+    color: var(--text-color);
 }
 
 .home-listing .post-header {
@@ -119,12 +122,12 @@ img {
     position: relative;
 }
 
-.post-category-name {
+.home-listing .post-category-name {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-100%);
-    color: hotpink;
+    color: var(--accent-color);
     text-decoration: none;
     font-family: monospace;
     font-variant: small-caps;
@@ -133,7 +136,6 @@ img {
 }
 
 .home-listing .post-title {
-    color: var(--white);
     font-size: clamp(18px, 128px, 10vw);
     font-family: "Montagu Slab", serif;
     font-optical-sizing: auto;
@@ -146,12 +148,19 @@ img {
 }
 
 .home-listing .post-cover {
-    width: 40vmin;
+    max-width: 40vmin;
+    align-self: start;
     justify-self: end;
 }
 
 .home-listing .post-spotify {
-    width: 40vmin !important;
-    height: 50vmin !important;
+    width: 40vmin;
+    height: 50vmin;
     justify-self: start;
+}
+
+.home-listing .post-cover-only,
+.home-listing .post-spotify-only {
+    grid-column: span 2;
+    justify-self: center;
 }

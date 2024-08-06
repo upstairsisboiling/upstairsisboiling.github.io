@@ -1,4 +1,18 @@
 module.exports = {
+  attachColorVariables(post) {
+    let CSSString = ''
+    if (post.textColor) {
+      CSSString += `--text-color: ${post.textColor};`
+    }
+    if (post.backgroundColor) {
+      CSSString += `--background-color: ${post.backgroundColor};`
+    }
+    if (post.accentColor) {
+      CSSString += `--accent-color: ${post.accentColor};`
+    }
+    return CSSString
+  },
+
   region(name) {
     return ` data-region-id="${name}" `
   },
