@@ -1,25 +1,33 @@
-{{#with post}}
-<article class="post post--single">
-    <header class="post-header">
-        <h2>{{title}}</h2>
-    </header>
-    <section class="post-content">
-        {{#if cover}}
-          <a href="{{cover}}">
-            <img
-                class="post-cover {{#if coverShape}}shape-{{coverShape}}{{/if}}"
-                {{#if coverPosition}}
-                style="--cover-position: {{coverPosition}};"
-                {{/if}}
-                src="{{cover}}"
-                alt="{{coverAlt}}">
-          </a>
-        {{/if}}
-        {{#if spotify}}
-          <iframe style="border-radius:12px" src="{{spotify}}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        {{/if}}
-        {{> @partial-block .. }}
-    </section>
-    {{>pages/post/footer}}
+<article class="post post--{{post.type}}" style="{{attachColorVariables post}}">
+
+  <header class="post-header">
+    <a class="post-category-name" href="{{post.category.permalink}}">
+      {{post.category.name}}
+    </a>
+    <h2 class="post-title">
+      <a class="post-title-link" href="{{post.permalink}}">{{post.title}}</a>
+    </h2>
+    <p class="post-released">Released {{post.publishDateMedium}}</p>
+  </header>
+
+  {{#if post.cover}}
+  <section class="post-card {{#if post.spotify}}{{else}}post-card-only{{/if}}">
+  <a href="{{post.cover}}" class="single-cover">
+    <img class="single-cover-image" src="{{post.cover}}" alt="{{post.coverAlt}}">
+  </a>
+  </section>
+  {{/if}}
+
+  {{#if post.spotify}}
+  <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+    <iframe class="single-spotify" style="border-radius:12px;" src="{{post.spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>
+  {{/if}}
+
+  {{#if post.content}}
+  <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+    {{> @partial-block .. }}
+  </section>
+  {{/if}}
+
 </article>
-{{/with}}

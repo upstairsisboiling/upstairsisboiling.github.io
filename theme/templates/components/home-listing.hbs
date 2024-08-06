@@ -1,11 +1,7 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
-
 <div class="home-listing">
   {{#each posts as |post|}}
   <article class="post post--{{post.type}}" style="{{attachColorVariables post}}">
+
     <header class="post-header">
       <a class="post-category-name" href="{{post.category.permalink}}">
         {{post.category.name}}
@@ -15,15 +11,27 @@
       </h2>
       <p class="post-released">Released {{post.publishDateMedium}}</p>
     </header>
+
     {{#if post.cover}}
-    <a href="{{post.cover}}" class="post-cover {{#if post.spotify}}{{else}}post-cover-only{{/if}}">
-      <img class="post-cover-image" src="{{post.cover}}" alt="{{post.coverAlt}}">
-    </a>
+    <section class="post-card {{#if post.spotify}}{{else}}post-card-only{{/if}}">
+      <a href="{{post.cover}}" class="{{post.type}}-cover">
+        <img class="album-cover-image" src="{{post.cover}}" alt="{{post.coverAlt}}">
+      </a>
+    </section>
     {{/if}}
+
     {{#if post.spotify}}
-    <iframe class="post-spotify {{#if post.cover}}{{else}}post-spotify-only{{/if}}" style="border-radius:12px;" src="{{post.spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+      <iframe class="{{post.type}}-spotify" style="border-radius:12px;" src="{{post.spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
     {{/if}}
-    {{{post.summary}}}
+
+    {{#if post.summary}}
+    <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+      <div class="{{post.type}}-summary">{{{post.summary}}}</div>
+    </section>
+    {{/if}}
+
   </article>
 
   {{/each}}

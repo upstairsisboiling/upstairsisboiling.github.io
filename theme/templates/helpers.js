@@ -1,15 +1,16 @@
 module.exports = {
-  attachColorVariables(post) {
+  printJSON() {
+    return `
+      <pre>${JSON.stringify(this, null ,2)}</pre>
+    `
+  },
+
+  attachColorVariables() {
+    const { textColor, backgroundColor, accentColor } = this
     let CSSString = ''
-    if (post.textColor) {
-      CSSString += `--text-color: ${post.textColor};`
-    }
-    if (post.backgroundColor) {
-      CSSString += `--background-color: ${post.backgroundColor};`
-    }
-    if (post.accentColor) {
-      CSSString += `--accent-color: ${post.accentColor};`
-    }
+    CSSString += textColor ? `--text-color: ${textColor};` : ''
+    CSSString += backgroundColor ? `--background-color: ${backgroundColor};` : ''
+    CSSString += accentColor ? `--accent-color: ${accentColor};` : ''
     return CSSString
   },
 
