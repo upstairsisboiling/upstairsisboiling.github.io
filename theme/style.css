@@ -43,6 +43,10 @@ img {
     position: fixed;
 }
 
+.Page-category [data-region-id="header"] {
+    position: fixed;
+}
+
 .header-logo {
     margin: 0;
     height: 100%;

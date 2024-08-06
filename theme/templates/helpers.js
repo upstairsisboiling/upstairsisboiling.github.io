@@ -5,8 +5,11 @@ module.exports = {
     `
   },
 
-  attachColorVariables() {
-    const { textColor, backgroundColor, accentColor } = this
+  attachColorVariables(entry) {
+    // keys can come from context or entry parameter
+    const textColor = this.textColor || entry.textColor
+    const backgroundColor = this.backgroundColor || entry.backgroundColor
+    const accentColor = this.accentColor || entry.accentColor
     let CSSString = ''
     CSSString += textColor ? `--text-color: ${textColor};` : ''
     CSSString += backgroundColor ? `--background-color: ${backgroundColor};` : ''
