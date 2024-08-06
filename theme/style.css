@@ -26,6 +26,18 @@ img {
     display: none;
 }
 
+.carousel-listing {
+    height: var(--carousel-height, 100vh);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.carousel-listing .carousel-listing-item {
+    height: var(--carousel-item-height, 100vh);
+    scroll-snap-align: start;
+}
+
 
 [data-region-id="container"] {}
 
@@ -177,25 +189,13 @@ img {
     justify-self: center !important;
 }
 
-.home-listing {
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-}
-
-.home-listing .post {
-    height: 100vh;
-    scroll-snap-align: start;
-}
-
 .post--album .album-cover {
     display: flex;
     justify-content: end;
 }
 
 .post--album .album-spotify {
-    width: 20vw;
+    width: max(320px, 20vw);
     height: 55vh;
 }
 
@@ -205,6 +205,6 @@ img {
 }
 
 .post--single .single-spotify {
-    width: 20vw;
+    width: max(320px, 20vw);
     height: 55vh;
 }
