@@ -1,8 +1,20 @@
 module.exports = {
+
+  // resolves site.url + entry's permalink
+  resolveUrl(ctx, itemPermalink) {
+    const {
+      mode,
+      site: { url },
+      permalinkPrefix
+    } = ctx.settings
+    if (mode === 'build') {
+      return url.replace(new RegExp(permalinkPrefix + '$'), '') + itemPermalink
+    }
+    return url + itemPermalink
+  },
+
   printJSON() {
-    return `
-      <pre>${JSON.stringify(this, null ,2)}</pre>
-    `
+    return `<pre>${JSON.stringify(this, null ,2)}</pre>`
   },
 
   attachColorVariables(entry) {
