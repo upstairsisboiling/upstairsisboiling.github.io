@@ -1,55 +1,48 @@
-{{#each posts as |post|}}
+<div class="home-listing">
+  {{#each posts as |post|}}
+  <article class="post post--{{post.type}}" style="{{attachColorVariables post}}">
 
-  {{#if (is post.type 'audio')}}
-    <div class="post">
-        <a href="{{post.permalink}}">
-          <h2 class="post-header">{{post.title}}</h2>
-          {{#if post.cover}}
-            <img src="{{post.cover}}" alt="{{post.coverAlt}}">
-          {{/if}}
-        </a>
-        {{{post.summary}}}
-        <p><a href="{{post.category.permalink}}">{{post.category.name}}</a></p>
-        <p>{{post.publishDateMedium}}</p>
-    </div>
+    <header class="post-header">
+      <a class="post-category-name" href="{{post.category.permalink}}">
+        {{post.category.name}}
+      </a>
+      <h2 class="post-title">
+        <a class="post-title-link" href="{{post.permalink}}">{{post.title}}</a>
+      </h2>
+      <p class="post-released">Released {{post.publishDateMedium}}</p>
+    </header>
 
-  {{else if (is post.type 'text')}}
-    <div class="post">
-        <h2><a href="{{post.permalink}}">{{post.title}}</a></h2>
-        {{#if post.cover}}
-          <a href="{{post.cover}}">
-            <img
-                class="post-cover {{#if post.coverShape}}shape-{{post.coverShape}}{{/if}}"
-                {{#if post.coverPosition}}
-                style="--cover-position: {{post.coverPosition}};"
-                {{/if}}
-                src="{{post.cover}}"
-                alt="{{post.coverAlt}}">
-          </a>
-        {{/if}}
-        {{{post.summary}}}
-        <p><a class="category-link" href="{{post.category.permalink}}">{{post.category.name}}</a></p>
-        <p>{{post.publishDateMedium}}</p>
-    </div>
-
-  {{else}}
-    <div class="post">
-        <h2><a href="{{post.permalink}}">{{post.title}}</a></h2>
-        {{{post.summary}}}
-        <p><a href="{{post.category.permalink}}">{{post.category.name}}</a></p>
-        <p>{{post.publishDateMedium}}</p>
-    </div>
-  {{/if}}
-
-{{/each}}
-
-{{#with pagination}}
-  <div class="pagination">
-    {{#if previousPage}}
-      <a href="{{previousPage}}">« {{lookup "previousPage"}}</a>
+    {{#if post.cover}}
+    <section class="post-card {{#if post.spotify}}{{else}}post-card-only{{/if}}">
+      <a href="{{post.cover}}" class="{{post.type}}-cover">
+        <img class="album-cover-image" src="{{post.cover}}" alt="{{post.coverAlt}}">
+      </a>
+    </section>
     {{/if}}
-    {{#if nextPage}}
-      <a href="{{nextPage}}">{{lookup "nextPage"}} »</a>
+
+    {{#if post.spotify}}
+    <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+      <iframe class="{{post.type}}-spotify" style="border-radius:12px;" src="{{post.spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
     {{/if}}
-  </div>
-{{/with}}
+
+    {{#if post.summary}}
+    <section class="post-card {{#if post.cover}}{{else}}post-card-only{{/if}}">
+      <div class="{{post.type}}-summary">{{{post.summary}}}</div>
+    </section>
+    {{/if}}
+
+  </article>
+  {{/each}}
+
+  {{#with pagination}}
+    <div class="pagination">
+      {{#if previousPage}}
+        <a href="{{previousPage}}">« {{lookup "previousPage"}}</a>
+      {{/if}}
+      {{#if nextPage}}
+        <a href="{{nextPage}}">{{lookup "nextPage"}} »</a>
+      {{/if}}
+    </div>
+  {{/with}}
+</div>
