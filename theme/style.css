@@ -26,18 +26,17 @@ img {
     display: none;
 }
 
-.carousel-listing {
+.carousel-panels {
     height: var(--carousel-height, 100vh);
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
 
-.carousel-listing .carousel-listing-item {
+.carousel-panels > * {
     height: var(--carousel-item-height, 100vh);
     scroll-snap-align: start;
 }
-
 
 [data-region-id="container"] {}
 

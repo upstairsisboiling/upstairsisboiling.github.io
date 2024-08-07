@@ -1,12 +1,31 @@
 {{#>base page="homepage"}}
-  {{#>layouts/single-column}}
-    <header {{region "header"}}>
-      {{>components/header}}
-    </header>
+  {{#>layouts/carousel-listing}}
 
-    <main {{region "main"}}>
-      {{> @partial-block }}
-      {{>components/posts}}
-    </main>
-  {{/layouts/single-column}}
+    {{#*inline "header"}}
+      {{>components/header}}
+    {{/inline}}
+
+    {{> @partial-block }}
+
+    {{#*inline "main"}}
+      {{#each posts as |post|}}
+        {{#if (is post.type 'album')}}
+          {{>pages/post/album/summary post=post}}
+        {{/if}}
+
+        {{#if (is post.type 'single')}}
+          {{>pages/post/single/summary post=post}}
+        {{/if}}
+
+        {{#if (is post.type 'audio')}}
+          {{>pages/post/audio post=post}}
+        {{/if}}
+
+        {{#if (is post.type 'text')}}
+          {{>pages/post/text post=post}}
+        {{/if}}
+      {{/each}}
+    {{/inline}}
+
+  {{/layouts/carousel-listing}}
 {{/base}}

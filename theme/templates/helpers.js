@@ -1,16 +1,16 @@
 module.exports = {
 
   // resolves site.url + entry's permalink
-  resolveUrl(ctx, itemPermalink) {
+  resolveUrl(ctx, entryPermalink) {
     const {
       mode,
       site: { url },
       permalinkPrefix
     } = ctx.settings
     if (mode === 'build') {
-      return url.replace(new RegExp(permalinkPrefix + '$'), '') + itemPermalink
+      return url.replace(new RegExp(permalinkPrefix + '$'), '') + entryPermalink
     }
-    return url + itemPermalink
+    return url + entryPermalink
   },
 
   printJSON() {
