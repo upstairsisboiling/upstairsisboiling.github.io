@@ -12,7 +12,7 @@
         </image>
         <category>album</category>
         <category>single</category>
-        <lastBuildDate>Wed, 07 Aug 2024 15:07:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Aug 2024 19:56:22 GMT</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
@@ -24,7 +24,7 @@
             <pubDate>Fri, 16 Aug 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://enes.in/album/ana-akim/kapak.jpg" alt="An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."></div>
+      <div><img src="https://enes.in/upstairs-is-boiling/album/ana-akim/kapak.jpg" alt="An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."></div>
       
     ]]></content:encoded>
         </item>
@@ -35,7 +35,7 @@
             <pubDate>Wed, 20 Mar 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://enes.in/single/mona/cover.jpg" alt="Kapak"></div>
+      <div><img src="https://enes.in/upstairs-is-boiling/single/mona/cover.jpg" alt="Kapak"></div>
       
     ]]></content:encoded>
         </item>
@@ -46,7 +46,7 @@
             <pubDate>Tue, 21 Nov 2023 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://enes.in/album/ona-yakin/ona%20yak%C4%B1n%20mobil.png" alt="Mobil mockup"></div>
+      <div><img src="https://enes.in/upstairs-is-boiling/album/ona-yakin/ona%20yak%C4%B1n%20mobil.png" alt="Mobil mockup"></div>
       
     ]]></content:encoded>
         </item>

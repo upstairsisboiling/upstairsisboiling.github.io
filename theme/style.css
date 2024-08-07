@@ -43,7 +43,6 @@ img {
 
 [data-region-id="header"] {
     width: 100%;
-    height: 160px;
 }
 
 .Page-homepage [data-region-id="header"] {
@@ -61,11 +60,12 @@ img {
 .header-logo {
     margin: 0;
     height: 100%;
-    float: left;
 }
 
 .header-logo-image {
-    max-height: 100%;
+    max-height: 40dvw;
+    max-width: 80dvw;
+    overflow: visible;
     color: transparent;
     stroke-width: 1;
     stroke: #ff80c0;
@@ -115,14 +115,15 @@ img {
     --background-color: var(--black);
     --text-color: var(--white);
     --accent-color: hotpink;
-    --gap: 5vw;
+    --gap: min(5vw, 12vh);
+    --padding-top: 35dvw;
     min-height: 100dvh;
-    padding-top: 10dvh;
+    padding-top: var(--padding-top);
     display: grid;
     grid-template-columns: repeat(
         auto-fit,
         minmax(
-            calc(50vw - var(--gap) / 2),
+            calc(49vw - var(--gap) / 2),
             1fr
         )
     );
@@ -143,6 +144,7 @@ img {
 
 .post-category-name {
     position: absolute;
+    display: none;
     top: 0;
     left: 50%;
     transform: translateX(-50%) translateY(-100%);
@@ -152,11 +154,11 @@ img {
     font-variant: small-caps;
     letter-spacing: 0.1em;
     font-size: 1.3em;
-    font-size: clamp(0.75rem, 1.5rem, 2vw);
+    font-size: clamp(.8rem, 1.5rem, 2.5dvmin);
 }
 
 .post-title {
-    font-size: clamp(18px, 128px, 10vw);
+    font-size: clamp(.1rem, 8rem, 14dvmin);
     font-family: "Montagu Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -169,8 +171,10 @@ img {
 
 .post-released {
   margin: 0;
-  font-size: 1.2em;
+  display: none;
+  font-size: clamp(.8rem, 1.2rem, 2dvmin);
   font-family: monospace;
+  text-align: center;
 }
 
 .post-card {
@@ -217,18 +221,70 @@ img {
     height: 55dvh;
 }
 
-@media (max-width: 680px) {
-    .post--album .post-card:has(.album-cover),
-    .post--single .post-card:has(.single-cover) {
-        display: none;
+/* initially hide cover */
+.post--album .post-card:has(.album-cover),
+.post--single .post-card:has(.single-cover) {
+    display: none;
+}
+
+/* and get spotify to act like card-only */
+.post--album .post-card:has(.album-spotify),
+.post--single .post-card:has(.single-spotify) {
+    grid-column: span 2;
+    justify-self: center;
+    padding: 0 1em;
+    box-sizing: border-box;
+}
+
+
+/*
+ * Adapt
+ * */
+
+@media (min-height: 321px) {
+    .post-category-name {
+        display: inline-block;
     }
 
-    /* same as .post-card-only */
-    .post--album .post-card:has(.album-spotify),
-    .post--single .post-card:has(.single-spotify) {
-        grid-column: span 2;
-        justify-self: center !important;
-        padding: 0 1em;
-        box-sizing: border-box;
+    .post {
+        --padding-top: 40dvw;
+    }
+}
+
+@media (min-width: 361px) {
+    .header-logo-image {
+        max-height: 20dvmin;
+        max-width: 40dvmin;
+    }
+
+    .post {
+        --padding-top: 10dvh;
+    }
+}
+
+@media (min-height: 361px) {
+    .post-released {
+        display: block;
+    }
+}
+
+@media (min-height: 400px) and (min-width: 361px){
+    .post {
+        --padding-top: 10dvh;
+    }
+}
+
+@media (min-width: 600px) {
+    .post--album .post-card:has(.album-cover),
+    .post--single .post-card:has(.single-cover) {
+        display: flex;
+    }
+
+    /* revert the fabricated card-only effect */
+    .post--album .post-card:not(.post-card-only):has(.album-spotify),
+    .post--single .post-card:not(.post-card-only):has(.single-spotify) {
+        grid-column: initial;
+        justify-self: start;
+        padding: initial;
     }
 }
