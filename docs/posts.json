@@ -2,7 +2,7 @@
   {
     "type": "album",
     "title": "Ân'a akım",
-    "cover": "/upstairs-is-boiling/album/ana-akim/kapak.jpg",
+    "cover": "/album/ana-akim/kapak.jpg",
     "media": "",
     "summary": "",
     "tags": [],
@@ -10,10 +10,10 @@
     "spotify": "https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie?theme=0",
     "date": "08.17.2024",
     "slug": "ana-akim",
-    "permalink": "/upstairs-is-boiling/album/ana-akim",
+    "permalink": "/album/ana-akim",
     "category": {
       "name": "album",
-      "permalink": "/upstairs-is-boiling/album"
+      "permalink": "/album"
     },
     "path": "album/Ân'a akım/post.md",
     "handle": "album/Ân'a akım",
@@ -37,7 +37,7 @@
     "links": {
       "previousPost": {
         "title": "Ona yakın",
-        "permalink": "/upstairs-is-boiling/album/ona-yakin"
+        "permalink": "/album/ona-yakin"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -47,7 +47,7 @@
   {
     "type": "single",
     "title": "Mona",
-    "cover": "/upstairs-is-boiling/single/mona/cover.jpg",
+    "cover": "/single/mona/cover.jpg",
     "media": "",
     "summary": "",
     "tags": [],
@@ -58,10 +58,10 @@
     "backgroundColor": "rebeccapurple",
     "accentColor": "blanchedalmond",
     "slug": "mona",
-    "permalink": "/upstairs-is-boiling/single/mona",
+    "permalink": "/single/mona",
     "category": {
       "name": "single",
-      "permalink": "/upstairs-is-boiling/single"
+      "permalink": "/single"
     },
     "path": "single/Mona/post.md",
     "handle": "single/Mona",
@@ -85,7 +85,7 @@
     "links": {
       "previousPost": {
         "title": "Lisa",
-        "permalink": "/upstairs-is-boiling/single/lisa.html"
+        "permalink": "/single/lisa.html"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -95,7 +95,7 @@
   {
     "type": "album",
     "title": "Ona yakın",
-    "cover": "/upstairs-is-boiling/album/ona-yakin/ona yakın mobil.png",
+    "cover": "/album/ona-yakin/ona yakın mobil.png",
     "media": "",
     "summary": "",
     "tags": [],
@@ -106,10 +106,10 @@
     "backgroundColor": "palevioletred",
     "accentColor": "navajowhite",
     "slug": "ona-yakin",
-    "permalink": "/upstairs-is-boiling/album/ona-yakin",
+    "permalink": "/album/ona-yakin",
     "category": {
       "name": "album",
-      "permalink": "/upstairs-is-boiling/album"
+      "permalink": "/album"
     },
     "path": "album/On'a yakın/post.md",
     "handle": "album/On'a yakın",
@@ -133,7 +133,7 @@
     "links": {
       "nextPost": {
         "title": "Ân'a akım",
-        "permalink": "/upstairs-is-boiling/album/ana-akim"
+        "permalink": "/album/ana-akim"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -150,10 +150,10 @@
     "spotify": "https://open.spotify.com/embed/track/1Ma4fLShd0hpZSNH37mEkR?theme=0",
     "date": "09.21.2022",
     "slug": "lisa",
-    "permalink": "/upstairs-is-boiling/single/lisa.html",
+    "permalink": "/single/lisa.html",
     "category": {
       "name": "single",
-      "permalink": "/upstairs-is-boiling/single"
+      "permalink": "/single"
     },
     "path": "single/Lisa.md",
     "handle": "single/Lisa",
@@ -168,7 +168,7 @@
     "links": {
       "nextPost": {
         "title": "Mona",
-        "permalink": "/upstairs-is-boiling/single/mona"
+        "permalink": "/single/mona"
       },
       "relevantPosts": [],
       "mentionedTo": [],

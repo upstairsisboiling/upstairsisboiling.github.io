@@ -12,7 +12,7 @@
         </image>
         <category>album</category>
         <category>single</category>
-        <lastBuildDate>Wed Aug 07 2024 17:48:11 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <lastBuildDate>Wed Aug 07 2024 18:07:12 GMT+0300 (GMT+03:00)</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
@@ -24,7 +24,7 @@
             <pubDate>Wed, 20 Mar 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://enes.in/upstairs-is-boiling/single/mona/cover.jpg" alt="Kapak"></div>
+      <div><img src="https://enes.in/single/mona/cover.jpg" alt="Kapak"></div>
       
     ]]></content:encoded>
         </item>
