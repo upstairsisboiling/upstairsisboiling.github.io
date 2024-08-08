@@ -27,6 +27,11 @@ img {
     display: none;
 }
 
+.style-abstract {
+    mix-blend-mode: lighten;
+    filter: contrast(3) brightness(2);
+}
+
 /*
  * Layouts
  * */
@@ -337,6 +342,11 @@ img {
         float: left;
         width: 50%;
         margin: 0 1.5rem 1.25rem 0;
+    }
+
+    .style-abstract .post-cover-image {
+        object-fit: cover;
+        height: 50dvh;
     }
 
     .post-content p {

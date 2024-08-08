@@ -15,7 +15,7 @@
     <section class="grid-card grid-card-wide">
       <div class="post-content">
         {{#if cover}}
-          <a href="{{cover}}" class="post-cover">
+        <a href="{{cover}}" class="post-cover {{#if coverStyle}}style-{{coverStyle}}{{/if}}">
             <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
           </a>
         {{/if}}
