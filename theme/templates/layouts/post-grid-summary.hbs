@@ -16,7 +16,7 @@
       <div class="post-content">
         {{#if cover}}
           <a href="{{cover}}" class="post-cover">
-            <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
+            <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}" loading="lazy">
           </a>
         {{/if}}
         {{{summary}}}
@@ -31,7 +31,7 @@
     {{#if cover}}
     <section class="grid-card {{#if spotify}}{{else}}grid-card-only{{/if}}">
     <a href="{{cover}}" class="post-cover">
-      <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
+      <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}" loading="lazy">
     </a>
     </section>
     {{/if}}
