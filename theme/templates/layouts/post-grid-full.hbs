@@ -1,0 +1,46 @@
+{{#with post}}
+<article class="post post--{{type}}" style="{{attachColorVariables}}">
+
+  <header class="post-header">
+    <a class="post-category-name" href="{{category.permalink}}">
+      {{category.name}}
+    </a>
+    <h2 class="post-title">{{title}}</h2>
+    <p class="post-released">{{publishDateMedium}}</p>
+  </header>
+
+  {{#if content}}
+    <section class="grid-card grid-card-wide">
+      <div class="post-content">
+        {{#if cover}}
+          <a href="{{cover}}" class="post-cover">
+            <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
+          </a>
+        {{/if}}
+        {{> @partial-block .. }}
+        {{#if spotify}}
+          <iframe class="post-spotify" style="border-radius:12px;" src="{{spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        {{/if}}
+      </div>
+    </section>
+
+  {{else}}
+
+    {{#if cover}}
+      <section class="grid-card {{#if spotify}}{{else}}grid-card-only{{/if}}">
+      <a href="{{cover}}" class="post-cover">
+        <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
+      </a>
+      </section>
+    {{/if}}
+
+    {{#if spotify}}
+      <section class="grid-card {{#if cover}}{{else}}grid-card-only{{/if}}">
+        <iframe class="post-spotify" style="border-radius:12px;" src="{{spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+    {{/if}}
+
+  {{/if}}
+
+</article>
+{{/with}}

@@ -9,21 +9,7 @@
 
     {{#*inline "main"}}
       {{#each category.posts as |post|}}
-        {{#if (is post.type 'album')}}
-          {{>pages/post/album/summary post=post}}
-        {{/if}}
-
-        {{#if (is post.type 'single')}}
-          {{>pages/post/single/summary post=post}}
-        {{/if}}
-
-        {{#if (is post.type 'audio')}}
-          {{>pages/post/audio post=post}}
-        {{/if}}
-
-        {{#if (is post.type 'text')}}
-          {{>pages/post/text post=post}}
-        {{/if}}
+        {{>(getPostSummaryPartial post.type) post=post}}
       {{/each}}
     {{/inline}}
 

@@ -1,5 +1,9 @@
 module.exports = {
 
+  getPostSummaryPartial(postType) {
+    return `pages/post/${postType}/summary`
+  },
+
   // resolves site.url + entry's permalink
   resolveUrl(ctx, entryPermalink) {
     const {
@@ -19,10 +23,12 @@ module.exports = {
 
   attachColorVariables(entry) {
     // keys can come from context or entry parameter
+    const titleColor = this.titleColor || entry.titleColor
     const textColor = this.textColor || entry.textColor
     const backgroundColor = this.backgroundColor || entry.backgroundColor
     const accentColor = this.accentColor || entry.accentColor
     let CSSString = ''
+    CSSString += titleColor ? `--title-color: ${titleColor};` : ''
     CSSString += textColor ? `--text-color: ${textColor};` : ''
     CSSString += backgroundColor ? `--background-color: ${backgroundColor};` : ''
     CSSString += accentColor ? `--accent-color: ${accentColor};` : ''

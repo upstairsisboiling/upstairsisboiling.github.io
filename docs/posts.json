@@ -20,6 +20,14 @@
     "foldered": true,
     "localAssets": [
       {
+        "name": "convergence.jpg",
+        "path": "album/Ân'a akım/convergence.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      },
+      {
         "name": "kapak.jpg",
         "path": "album/Ân'a akım/kapak.jpg",
         "depth": 2,
@@ -39,6 +47,97 @@
         "title": "Ona yakın",
         "permalink": "/upstairs-is-boiling/album/ona-yakin"
       },
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "event",
+    "title": "The last meetup",
+    "cover": "/upstairs-is-boiling/event/the-last-meetup/himalaya-11.jpg",
+    "media": "",
+    "summary": "<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro. Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>\n<p>Sit iure doloribus quod neque eaque Eaque cupiditate maiores quod nihil minima nobis. Culpa voluptate eos odit atque dolorum, fuga. Quis dicta aliquid expedita saepe labore dignissimos dolores Possimus veritatis.</p>\n",
+    "tags": [],
+    "date": "07.26.2024",
+    "backgroundColor": "#7df2c6",
+    "textColor": "black",
+    "slug": "the-last-meetup",
+    "permalink": "/upstairs-is-boiling/event/the-last-meetup",
+    "category": {
+      "name": "event",
+      "permalink": "/upstairs-is-boiling/event"
+    },
+    "path": "event/The last meetup/post.md",
+    "handle": "event/The last meetup",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "convergence.jpg",
+        "path": "event/The last meetup/convergence.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      },
+      {
+        "name": "himalaya-11.jpg",
+        "path": "event/The last meetup/himalaya-11.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2024-07-25T21:00:00.000Z",
+    "publishDateUTC": "Thu, 25 Jul 2024 21:00:00 GMT",
+    "publishDateFull": "Friday, July 26, 2024",
+    "publishDateLong": "July 26, 2024",
+    "publishDateMedium": "Jul 26, 2024",
+    "publishDateShort": "7/26/24",
+    "links": {
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "text",
+    "title": "Hola",
+    "cover": "/upstairs-is-boiling/misc/hola/tian-shan-4.jpg",
+    "media": "",
+    "summary": "",
+    "tags": [],
+    "date": "06.16.2024",
+    "backgroundColor": "pink",
+    "textColor": "black",
+    "accentColor": "crimson",
+    "slug": "hola",
+    "permalink": "/upstairs-is-boiling/misc/hola",
+    "category": {
+      "name": "misc",
+      "permalink": "/upstairs-is-boiling/misc"
+    },
+    "path": "misc/Hola/post.md",
+    "handle": "misc/Hola",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "tian-shan-4.jpg",
+        "path": "misc/Hola/tian-shan-4.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2024-06-15T21:00:00.000Z",
+    "publishDateUTC": "Sat, 15 Jun 2024 21:00:00 GMT",
+    "publishDateFull": "Sunday, June 16, 2024",
+    "publishDateLong": "June 16, 2024",
+    "publishDateMedium": "Jun 16, 2024",
+    "publishDateShort": "6/16/24",
+    "links": {
       "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []

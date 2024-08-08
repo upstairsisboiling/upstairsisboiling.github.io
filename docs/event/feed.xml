@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Upstairs is boiling | event</title>
+        <link>https://enes.in/upstairs-is-boiling/event</link>
+        <description>event category on Upstairs is boiling</description>
+        <language>en</language>
+        <image>
+            <title>Upstairs is boiling</title>
+            <url>https://enes.in/upstairs-is-boiling/assets/common/writ-icon-512.png</url>
+            <link>https://enes.in/upstairs-is-boiling</link>
+        </image>
+        <category>album</category>
+        <category>event</category>
+        <category>misc</category>
+        <category>single</category>
+        <lastBuildDate>Thu Aug 08 2024 17:46:49 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <generator>writ-cms</generator>
+        <atom:link href="https://enes.in/upstairs-is-boiling/event/feed.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title><![CDATA[The last meetup]]></title>
+            <link>https://enes.in/upstairs-is-boiling/event/the-last-meetup</link>
+            <guid>https://enes.in/upstairs-is-boiling/event/the-last-meetup</guid>
+            <pubDate>Thu, 25 Jul 2024 21:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro. Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>
+<p>Sit iure doloribus quod neque eaque Eaque cupiditate maiores quod nihil minima nobis. Culpa voluptate eos odit atque dolorum, fuga. Quis dicta aliquid expedita saepe labore dignissimos dolores Possimus veritatis.</p>
+]]></description>
+            <content:encoded><![CDATA[
+      <div><img src="https://enes.in/upstairs-is-boiling/event/the-last-meetup/himalaya-11.jpg" alt="undefined"></div>
+      <p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro. Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>
+<p>Sit iure doloribus quod neque eaque Eaque cupiditate maiores quod nihil minima nobis. Culpa voluptate eos odit atque dolorum, fuga. Quis dicta aliquid expedita saepe labore dignissimos dolores Possimus veritatis.</p>
+
+<p>Ipsum tempore aut eius deleniti voluptatibus Illum porro repellat reiciendis accusamus blanditiis Eum ipsum placeat dolores quis quod veniam? Quisquam nobis pariatur provident dolorem asperiores quisquam! Incidunt sunt dignissimos voluptas</p>
+<img src="https://enes.in/upstairs-is-boiling/event/the-last-meetup/convergence.jpg" alt="Converge">
+
+<p>Adipisicing ab tenetur animi dolorem esse tempore? Sint eum corrupti suscipit sapiente provident Ab adipisci quaerat provident odio in Sequi dolor eaque sed aliquid impedit? Alias pariatur aperiam totam quibusdam.</p>
+
+    ]]></content:encoded>
+        </item>
+    </channel>
+</rss>

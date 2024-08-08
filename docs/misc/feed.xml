@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Upstairs is boiling | misc</title>
+        <link>https://enes.in/upstairs-is-boiling/misc</link>
+        <description>misc category on Upstairs is boiling</description>
+        <language>en</language>
+        <image>
+            <title>Upstairs is boiling</title>
+            <url>https://enes.in/upstairs-is-boiling/assets/common/writ-icon-512.png</url>
+            <link>https://enes.in/upstairs-is-boiling</link>
+        </image>
+        <category>album</category>
+        <category>event</category>
+        <category>misc</category>
+        <category>single</category>
+        <lastBuildDate>Thu Aug 08 2024 17:46:49 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <generator>writ-cms</generator>
+        <atom:link href="https://enes.in/upstairs-is-boiling/misc/feed.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title><![CDATA[Hola]]></title>
+            <link>https://enes.in/upstairs-is-boiling/misc/hola</link>
+            <guid>https://enes.in/upstairs-is-boiling/misc/hola</guid>
+            <pubDate>Sat, 15 Jun 2024 21:00:00 GMT</pubDate>
+            <description><![CDATA[]]></description>
+            <content:encoded><![CDATA[
+      <div><img src="https://enes.in/upstairs-is-boiling/misc/hola/tian-shan-4.jpg" alt="undefined"></div>
+      
+    ]]></content:encoded>
+        </item>
+    </channel>
+</rss>
