@@ -60,6 +60,7 @@ img {
 .header-logo {
     margin: 0;
     height: 100%;
+    text-align: center;
 }
 
 .header-logo-image {
@@ -251,7 +252,11 @@ img {
     }
 }
 
-@media (min-width: 361px) {
+@media (min-width: 431px) {
+    .header-logo {
+        text-align: initial;
+    }
+
     .header-logo-image {
         max-height: 20dvmin;
         max-width: 40dvmin;
@@ -262,15 +267,9 @@ img {
     }
 }
 
-@media (min-height: 361px) {
+@media (min-height: 431px) {
     .post-released {
         display: block;
-    }
-}
-
-@media (min-height: 400px) and (min-width: 361px){
-    .post {
-        --padding-top: 10dvh;
     }
 }
 
