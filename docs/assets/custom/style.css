@@ -238,8 +238,22 @@ img {
 
 .post-title-link {
     color: inherit;
-    text-decoration-thickness: 13px;
-    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.2em;
+}
+
+/*
+ * Dotted underline renders as squares in mobile,
+ * so use them only on bigger screens.
+ * */
+@media ((min-width: 420px) and (min-height: 900px)),
+       ((min-width: 900px) and (min-height: 420px)) {
+    .post-title-link {
+        text-decoration-thickness: 0.125em;
+        text-decoration-style: dotted;
+        text-underline-offset: initial;
+    }
 }
 
 .post-released {
