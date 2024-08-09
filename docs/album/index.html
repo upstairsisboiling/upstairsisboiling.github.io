@@ -52,6 +52,14 @@
 
   <main class="carousel-panels"  data-region-id="main" >
             <article class="post summary post--album" style="">
+  
+      <script>
+      window.themeVariables = [
+        ...(window.themeVariables || []),
+        {  }
+      ]
+      </script>
+    
 
   <header class="post-header">
     <a class="post-category-name" href="/upstairs-is-boiling/album">
@@ -77,6 +85,14 @@
 
 </article>
         <article class="post summary post--album" style="--text-color: white;--background-color: palevioletred;--accent-color: navajowhite;">
+  
+      <script>
+      window.themeVariables = [
+        ...(window.themeVariables || []),
+        {  }
+      ]
+      </script>
+    
 
   <header class="post-header">
     <a class="post-category-name" href="/upstairs-is-boiling/album">
@@ -112,7 +128,17 @@
 </svg>
         <script>window.permalinkPrefix = "/upstairs-is-boiling"</script>
         <script type="module" src="/upstairs-is-boiling/assets/common/dictionary.js"></script>
-                <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
+        <script>
+  const setCSSProperty = (key, value, element = window.document.documentElement) => {
+    element.style.setProperty(key, value)
+  }
+
+  const getCSSProperty = (key, element = window.document.documentElement) => {
+    return element.style.getPropertyValue(key)
+  }
+</script>
+
+        <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
     </body>
 
 </html>

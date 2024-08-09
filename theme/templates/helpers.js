@@ -21,6 +21,22 @@ module.exports = {
     return `<pre>${JSON.stringify(this, null ,2)}</pre>`
   },
 
+  attachThemeVariables(entry) {
+    // keys can come from context or entry parameter
+    const logoColor = this.logoColor || entry.logoColor
+    const quote = (str) => {
+      return `'${str.replace(/(^"|^'|"$|'$)/g, '')}'`
+    }
+    return `
+      <script>
+      window.themeVariables = [
+        ...(window.themeVariables || []),
+        { ${logoColor ? `logoColor: ${quote(logoColor)},` : ''} }
+      ]
+      </script>
+    `
+  },
+
   attachColorVariables(entry) {
     // keys can come from context or entry parameter
     const titleColor = this.titleColor || entry.titleColor

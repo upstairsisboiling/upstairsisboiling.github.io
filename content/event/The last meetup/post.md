@@ -3,6 +3,7 @@ type: event
 date: 07.26.2024
 backgroundColor: '#7df2c6'
 textColor: black
+logoColor: white
 cover: himalaya-11.jpg
 coverStyle: abstract
 ---

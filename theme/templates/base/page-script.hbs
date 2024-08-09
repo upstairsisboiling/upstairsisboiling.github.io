@@ -1,0 +1,49 @@
+<script>
+  const setCSSProperty = (key, value, element = window.document.documentElement) => {
+    element.style.setProperty(key, value)
+  }
+
+  const getCSSProperty = (key, element = window.document.documentElement) => {
+    return element.style.getPropertyValue(key)
+  }
+</script>
+
+{{#if (isPostPage)}}
+<script>
+  const { logoColor } = window.themeVariables[0]
+  if (logoColor) {
+    setCSSProperty('--logo-color', logoColor)
+  }
+</script>
+{{/if}}
+{{#if (isHomePage)}}
+<script>
+  const activateCarouselPanelThemeVariables = (themeVariables) => {
+    const container = document.querySelector('[data-region-id="main"]')
+    if (!container) {
+      return
+    }
+    const originalLogoColor = getCSSProperty('--logo-color')
+    const logo = document.querySelector('.header-logo-image')
+    const smoothFactor = window.innerHeight / 5
+    const panels = Array.from(container.children)
+    container.addEventListener('scroll', () => {
+      panels.forEach((panel, index) => {
+        if (Math.abs(container.scrollTop - panel.offsetTop) > smoothFactor) {
+          return
+        }
+        const variables = themeVariables[index]
+        if (!Object.keys(variables).length || !variables.logoColor) {
+          return setCSSProperty('--logo-color', originalLogoColor)
+        }
+        if (getCSSProperty('--logo-color') === variables.logoColor) {
+          return
+        }
+        setCSSProperty('--logo-color', variables.logoColor)
+      })
+    })
+  }
+
+  activateCarouselPanelThemeVariables(window.themeVariables)
+</script>
+{{/if}}

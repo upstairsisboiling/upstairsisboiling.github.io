@@ -47,6 +47,14 @@
 
     <main  data-region-id="main" >
       <article class="post post--event" style="--text-color: black;--background-color: #7df2c6;">
+  
+      <script>
+      window.themeVariables = [
+        ...(window.themeVariables || []),
+        { logoColor: 'white', }
+      ]
+      </script>
+    
 
   <header class="post-header">
     <a class="post-category-name" href="/upstairs-is-boiling/event">
@@ -87,7 +95,23 @@
 </svg>
         <script>window.permalinkPrefix = "/upstairs-is-boiling"</script>
         <script type="module" src="/upstairs-is-boiling/assets/common/dictionary.js"></script>
-                <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
+        <script>
+  const setCSSProperty = (key, value, element = window.document.documentElement) => {
+    element.style.setProperty(key, value)
+  }
+
+  const getCSSProperty = (key, element = window.document.documentElement) => {
+    return element.style.getPropertyValue(key)
+  }
+</script>
+
+<script>
+  const { logoColor } = window.themeVariables[0]
+  if (logoColor) {
+    setCSSProperty('--logo-color', logoColor)
+  }
+</script>
+        <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
     </body>
 
 </html>
