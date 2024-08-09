@@ -1,6 +1,6 @@
 ---
 type: event
-date: 07.26.2024
+date: 01.26.2024
 backgroundColor: '#7df2c6'
 textColor: black
 logoColor: white

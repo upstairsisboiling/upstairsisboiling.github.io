@@ -15,32 +15,46 @@
   {{#if summary}}
     <section class="grid-card grid-card-wide">
       <div class="post-content">
+
         {{#if cover}}
-        <a href="{{cover}}" class="post-cover {{#if coverStyle}}style-{{coverStyle}}{{/if}}">
+          <a href="{{cover}}" class="post-cover {{#if coverStyle}}style-{{coverStyle}}{{/if}}">
             <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
           </a>
         {{/if}}
+
         {{{summary}}}
+
         {{#if spotify}}
-          <iframe class="post-spotify" style="border-radius:12px;" src="{{spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe class="post-spotify" style="border-radius:12px;" src="{{toSpotifyEmbedURL spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         {{/if}}
+
+        {{#if youtube}}
+          <iframe class="post-youtube" src="{{toYoutubeEmbedURL youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        {{/if}}
+
       </div>
     </section>
 
   {{else}}
 
     {{#if cover}}
-    <section class="grid-card {{#if spotify}}{{else}}grid-card-only{{/if}}">
-    <a href="{{cover}}" class="post-cover">
-      <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
-    </a>
-    </section>
+      <section class="grid-card {{isOnlyCard}}">
+      <a href="{{cover}}" class="post-cover">
+        <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
+      </a>
+      </section>
     {{/if}}
 
     {{#if spotify}}
-    <section class="grid-card {{#if cover}}{{else}}grid-card-only{{/if}}">
-      <iframe class="post-spotify" style="border-radius:12px;" src="{{spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
+      <section class="grid-card {{isOnlyCard}}">
+        <iframe class="post-spotify post-mobile-poster" style="border-radius:12px;" src="{{toSpotifyEmbedURL spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </section>
+    {{/if}}
+
+    {{#if youtube}}
+      <section class="grid-card {{isOnlyCard}}">
+        <iframe class="post-youtube post-mobile-poster" src="{{toYoutubeEmbedURL youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
     {{/if}}
 
   {{/if}}

@@ -62,13 +62,13 @@ img {
     place-content: end;
 }
 
-.grid-card-only {
+.only-card {
     grid-column: span 2;
     justify-self: center !important;
     box-sizing: border-box;
 }
 
-.grid-card-only > * {
+.only-card > * {
     max-width: 90dvw;
     max-height: 60dvh;
 }
@@ -245,9 +245,9 @@ img {
 @media ((min-width: 420px) and (min-height: 900px)),
        ((min-width: 900px) and (min-height: 420px)) {
     .post-title-link {
-        text-decoration-thickness: 0.125em;
+        text-decoration-thickness: 0.12em;
         text-decoration-style: dotted;
-        text-underline-offset: initial;
+        text-underline-offset: 0.09em;
     }
 }
 
@@ -282,7 +282,7 @@ img {
     text-align: end;
 }
 
-.grid-card-only .post-cover {
+.only-card .post-cover {
     text-align: center;
 }
 
@@ -291,25 +291,32 @@ img {
     height: 55dvh;
 }
 
+.post-youtube {
+  width: 100dvw;
+  aspect-ratio: 16/9;
+  max-width: initial;
+  max-height: initial;
+}
+
 /*
  * In listing view of post (.post.summary),
- * if there are both cover and spotify cards,
+ * if there are both cover and spotify or youtube cards (cards taking priority in mobile),
  * then initially hide the cover (then adapt to viewport later).
  *
  * Set display: none to the cover's card.
- * Obviously we want to do it when the cover's card is not the only one.
+ * Obviously we want to do it when the cover's card is among many.
  * */
-.post.summary .grid-card:not(.grid-card-only):not(.grid-card-wide):has(.post-cover) {
-    display: none;
-}
+.post.summary .grid-card:not(.only-card):not(.grid-card-wide):has(.post-cover) {
+        display: none;
+    }
 
-/* and get spotify to quack like a .grid-card-only */
-.post.summary .grid-card:not(.grid-card-only):not(.grid-card-wide):has(.post-spotify) {
-    grid-column: span 2;
-    justify-self: center;
-    padding: 0 1em;
-    box-sizing: border-box;
-}
+/* and get the mobile card to quack like a .only-card */
+.post.summary .grid-card:not(.only-card):not(.grid-card-wide):has(.post-mobile-poster):nth-child(even) {
+        grid-column: span 2;
+        justify-self: center;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
 
 /*
  * Adapt
@@ -369,11 +376,11 @@ img {
     /*
      * revert the fabricated card-only effect in listing-view (post summary)
      * */
-    .post.summary .grid-card:not(.grid-card-only):not(.grid-card-wide):has(.post-cover) {
+    .post.summary .grid-card:not(.only-card):not(.grid-card-wide):has(.post-cover) {
         display: flex;
     }
 
-    .post.summary .grid-card:not(.grid-card-only):not(.grid-card-wide):has(.post-spotify) {
+    .post.summary .grid-card:not(.only-card):not(.grid-card-wide):has(.post-mobile-poster):nth-child(even) {
         grid-column: initial;
         justify-self: start;
         padding: initial;

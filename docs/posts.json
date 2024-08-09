@@ -7,7 +7,7 @@
     "summary": "",
     "tags": [],
     "coverAlt": "An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'.",
-    "spotify": "https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie?theme=0",
+    "spotify": "https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie",
     "date": "08.17.2024",
     "slug": "ana-akim",
     "permalink": "/upstairs-is-boiling/album/ana-akim",
@@ -53,51 +53,48 @@
     }
   },
   {
-    "type": "event",
-    "title": "The last meetup",
-    "cover": "/upstairs-is-boiling/event/the-last-meetup/himalaya-11.jpg",
+    "type": "text",
+    "title": "Live at Jazzpod",
+    "cover": "",
     "media": "",
-    "summary": "<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro.</p>\n<p>Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>\n",
+    "summary": "",
     "tags": [],
-    "date": "07.26.2024",
-    "backgroundColor": "#7df2c6",
-    "textColor": "black",
-    "logoColor": "white",
-    "coverStyle": "abstract",
-    "slug": "the-last-meetup",
-    "permalink": "/upstairs-is-boiling/event/the-last-meetup",
+    "date": "08.08.2024",
+    "backgroundColor": "#1f1c19",
+    "textColor": "#faead6",
+    "accentColor": "#faead6",
+    "logoColor": "palevioletred",
+    "youtube": "https://www.youtube.com/watch?v=LiNJG00UcIA",
+    "slug": "live-at-jazzpod",
+    "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod",
     "category": {
-      "name": "event",
-      "permalink": "/upstairs-is-boiling/event"
+      "name": "misc",
+      "permalink": "/upstairs-is-boiling/misc"
     },
-    "path": "event/The last meetup/post.md",
-    "handle": "event/The last meetup",
+    "path": "misc/Live at Jazzpod/post.md",
+    "handle": "misc/Live at Jazzpod",
     "foldered": true,
     "localAssets": [
       {
-        "name": "convergence.jpg",
-        "path": "event/The last meetup/convergence.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      },
-      {
-        "name": "himalaya-11.jpg",
-        "path": "event/The last meetup/himalaya-11.jpg",
+        "name": "tian-shan-4.jpg",
+        "path": "misc/Live at Jazzpod/tian-shan-4.jpg",
         "depth": 2,
         "extension": ".jpg",
         "isFolder": false,
         "type": "localAsset"
       }
     ],
-    "publishDate": "2024-07-25T21:00:00.000Z",
-    "publishDateUTC": "Thu, 25 Jul 2024 21:00:00 GMT",
-    "publishDateFull": "Friday, July 26, 2024",
-    "publishDateLong": "July 26, 2024",
-    "publishDateMedium": "Jul 26, 2024",
-    "publishDateShort": "7/26/24",
+    "publishDate": "2024-08-07T21:00:00.000Z",
+    "publishDateUTC": "Wed, 07 Aug 2024 21:00:00 GMT",
+    "publishDateFull": "Thursday, August 8, 2024",
+    "publishDateLong": "August 8, 2024",
+    "publishDateMedium": "Aug 8, 2024",
+    "publishDateShort": "8/8/24",
     "links": {
+      "previousPost": {
+        "title": "Hola",
+        "permalink": "/upstairs-is-boiling/misc/hola"
+      },
       "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
@@ -141,6 +138,10 @@
     "publishDateMedium": "Jun 16, 2024",
     "publishDateShort": "6/16/24",
     "links": {
+      "nextPost": {
+        "title": "Live at Jazzpod",
+        "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod"
+      },
       "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
@@ -154,7 +155,7 @@
     "summary": "",
     "tags": [],
     "coverAlt": "Kapak",
-    "spotify": "https://open.spotify.com/embed/track/1Ma4fLShd0hpZSNH37mEkR?theme=0",
+    "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
     "date": "03.21.2024",
     "textColor": "white",
     "backgroundColor": "rebeccapurple",
@@ -195,6 +196,57 @@
     }
   },
   {
+    "type": "event",
+    "title": "The last meetup",
+    "cover": "/upstairs-is-boiling/event/the-last-meetup/himalaya-11.jpg",
+    "media": "",
+    "summary": "<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro.</p>\n<p>Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>\n",
+    "tags": [],
+    "date": "01.26.2024",
+    "backgroundColor": "#7df2c6",
+    "textColor": "black",
+    "logoColor": "white",
+    "coverStyle": "abstract",
+    "slug": "the-last-meetup",
+    "permalink": "/upstairs-is-boiling/event/the-last-meetup",
+    "category": {
+      "name": "event",
+      "permalink": "/upstairs-is-boiling/event"
+    },
+    "path": "event/The last meetup/post.md",
+    "handle": "event/The last meetup",
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "convergence.jpg",
+        "path": "event/The last meetup/convergence.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      },
+      {
+        "name": "himalaya-11.jpg",
+        "path": "event/The last meetup/himalaya-11.jpg",
+        "depth": 2,
+        "extension": ".jpg",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
+    "publishDate": "2024-01-25T21:00:00.000Z",
+    "publishDateUTC": "Thu, 25 Jan 2024 21:00:00 GMT",
+    "publishDateFull": "Friday, January 26, 2024",
+    "publishDateLong": "January 26, 2024",
+    "publishDateMedium": "Jan 26, 2024",
+    "publishDateShort": "1/26/24",
+    "links": {
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
     "type": "album",
     "title": "Ona yakın",
     "cover": "/upstairs-is-boiling/album/ona-yakin/ona yakın mobil.png",
@@ -202,7 +254,7 @@
     "summary": "",
     "tags": [],
     "coverAlt": "Mobil mockup",
-    "spotify": "https://open.spotify.com/embed/album/2P4oefrZZ6uOFsrykOusie?theme=0",
+    "spotify": "https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie",
     "date": "11.22.2023",
     "textColor": "white",
     "backgroundColor": "palevioletred",
@@ -249,7 +301,7 @@
     "media": "",
     "summary": "",
     "tags": [],
-    "spotify": "https://open.spotify.com/embed/track/1Ma4fLShd0hpZSNH37mEkR?theme=0",
+    "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
     "date": "09.21.2022",
     "slug": "lisa",
     "permalink": "/upstairs-is-boiling/single/lisa.html",

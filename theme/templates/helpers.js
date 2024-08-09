@@ -1,4 +1,24 @@
 module.exports = {
+  isOnlyCard() {
+    const possibleCards = [this.cover, this.spotify, this.youtube].filter(Boolean)
+    return possibleCards.length === 1 ? 'only-card' : ''
+  },
+
+  toSpotifyEmbedURL(url) {
+    const id = url.match(/open\.spotify\.com\/(.*)$/)
+    if (!id) {
+      return 'invalid-spotify-url'
+    }
+    return `https://open.spotify.com/embed/${id[1]}?theme=0`
+  },
+
+  toYoutubeEmbedURL(url) {
+    const id = url.match(/watch\?v=(.*)$/)
+    if (!id) {
+      return 'invalid-youtube-url'
+    }
+    return `https://www.youtube-nocookie.com/embed/${id[1]}`
+  },
 
   getPostSummaryPartial(postType) {
     return `pages/post/${postType}/summary`
