@@ -57,14 +57,9 @@ img {
     display: flex;
 }
 
-.grid-card:nth-child(even) {
-    place-self: start end;
-    place-content: start;
-}
-
 .grid-card:nth-child(odd) {
-    place-self: start start;
-    place-content: start;
+    place-self: start end;
+    place-content: end;
 }
 
 .grid-card-only {
