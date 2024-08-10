@@ -206,9 +206,12 @@
     const activate = () => {
       const activeClass = 'active-panel'
       Array.from(container.children).forEach((panel, index) => {
-        const smoothFactor = window.innerHeight / 5
-        if (Math.abs(container.scrollTop - panel.offsetTop) > smoothFactor) {
+        const diffY = Math.abs(container.scrollTop - panel.offsetTop)
+        if (diffY >= container.offsetHeight && panel.classList.contains(activeClass)) {
           return panel.classList.remove(activeClass)
+        }
+        if (diffY > window.innerHeight / 5) {
+          return
         }
         if (panel.classList.contains(activeClass)) {
           return
