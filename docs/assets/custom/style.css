@@ -292,10 +292,10 @@ img {
 }
 
 .post-youtube {
-  width: 100dvw;
-  aspect-ratio: 16/9;
-  max-width: initial;
-  max-height: initial;
+    width: clamp(300px, 1440px, 100vw);
+    aspect-ratio: 16/9;
+    max-width: initial;
+    max-height: initial;
 }
 
 /*

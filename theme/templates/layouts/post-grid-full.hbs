@@ -36,7 +36,7 @@
   {{else}}
 
     {{#if cover}}
-      <section class="grid-card {{#if spotify}}{{else}}grid-card-only{{/if}}">
+      <section class="grid-card {{isOnlyCard}}">
       <a href="{{cover}}" class="post-cover">
         <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
       </a>
@@ -44,13 +44,13 @@
     {{/if}}
 
     {{#if spotify}}
-      <section class="grid-card {{#if cover}}{{else}}grid-card-only{{/if}}">
+      <section class="grid-card {{isOnlyCard}}">
         <iframe class="post-spotify" style="border-radius:12px;" src="{{toSpotifyEmbedURL spotify}}" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </section>
     {{/if}}
 
     {{#if youtube}}
-      <section class="grid-card {{#if cover}}{{else}}grid-card-only{{/if}}">
+      <section class="grid-card {{isOnlyCard}}">
         <iframe class="post-youtube" src="{{toYoutubeEmbedURL youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
     {{/if}}

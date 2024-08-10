@@ -66,24 +66,15 @@
     "logoColor": "palevioletred",
     "youtube": "https://www.youtube.com/watch?v=LiNJG00UcIA",
     "slug": "live-at-jazzpod",
-    "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod",
+    "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod.html",
     "category": {
       "name": "misc",
       "permalink": "/upstairs-is-boiling/misc"
     },
-    "path": "misc/Live at Jazzpod/post.md",
+    "path": "misc/Live at Jazzpod.md",
     "handle": "misc/Live at Jazzpod",
-    "foldered": true,
-    "localAssets": [
-      {
-        "name": "tian-shan-4.jpg",
-        "path": "misc/Live at Jazzpod/tian-shan-4.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      }
-    ],
+    "foldered": false,
+    "localAssets": [],
     "publishDate": "2024-08-07T21:00:00.000Z",
     "publishDateUTC": "Wed, 07 Aug 2024 21:00:00 GMT",
     "publishDateFull": "Thursday, August 8, 2024",
@@ -140,7 +131,7 @@
     "links": {
       "nextPost": {
         "title": "Live at Jazzpod",
-        "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod"
+        "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod.html"
       },
       "relevantPosts": [],
       "mentionedTo": [],
