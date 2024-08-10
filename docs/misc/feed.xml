@@ -14,19 +14,11 @@
         <category>event</category>
         <category>misc</category>
         <category>single</category>
-        <lastBuildDate>Sun Aug 11 2024 01:26:40 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <lastBuildDate>Sun Aug 11 2024 02:12:47 GMT+0300 (GMT+03:00)</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
         <atom:link href="https://enes.in/upstairs-is-boiling/misc/feed.xml" rel="self" type="application/rss+xml" />
-        <item>
-            <title><![CDATA[Live at Jazzpod]]></title>
-            <link>https://enes.in/upstairs-is-boiling/misc/live-at-jazzpod.html</link>
-            <guid>https://enes.in/upstairs-is-boiling/misc/live-at-jazzpod.html</guid>
-            <pubDate>Wed, 07 Aug 2024 21:00:00 GMT</pubDate>
-            <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[Hola]]></title>
             <link>https://enes.in/upstairs-is-boiling/misc/hola</link>

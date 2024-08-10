@@ -66,13 +66,13 @@
     "logoColor": "palevioletred",
     "youtube": "https://www.youtube.com/watch?v=LiNJG00UcIA",
     "slug": "live-at-jazzpod",
-    "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod.html",
+    "permalink": "/upstairs-is-boiling/event/live-at-jazzpod.html",
     "category": {
-      "name": "misc",
-      "permalink": "/upstairs-is-boiling/misc"
+      "name": "event",
+      "permalink": "/upstairs-is-boiling/event"
     },
-    "path": "misc/Live at Jazzpod.md",
-    "handle": "misc/Live at Jazzpod",
+    "path": "event/Live at Jazzpod.md",
+    "handle": "event/Live at Jazzpod",
     "foldered": false,
     "localAssets": [],
     "publishDate": "2024-08-07T21:00:00.000Z",
@@ -83,8 +83,8 @@
     "publishDateShort": "8/8/24",
     "links": {
       "previousPost": {
-        "title": "Hola",
-        "permalink": "/upstairs-is-boiling/misc/hola"
+        "title": "The last meetup",
+        "permalink": "/upstairs-is-boiling/event/the-last-meetup"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -129,10 +129,6 @@
     "publishDateMedium": "Jun 16, 2024",
     "publishDateShort": "6/16/24",
     "links": {
-      "nextPost": {
-        "title": "Live at Jazzpod",
-        "permalink": "/upstairs-is-boiling/misc/live-at-jazzpod.html"
-      },
       "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
@@ -232,6 +228,10 @@
     "publishDateMedium": "Jan 26, 2024",
     "publishDateShort": "1/26/24",
     "links": {
+      "nextPost": {
+        "title": "Live at Jazzpod",
+        "permalink": "/upstairs-is-boiling/event/live-at-jazzpod.html"
+      },
       "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
