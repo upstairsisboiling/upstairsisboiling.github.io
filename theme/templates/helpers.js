@@ -168,5 +168,9 @@ module.exports = {
 
   isCategoryPage() {
     return this.page === 'category'
+  },
+
+  isListingPage() {
+    return !!this.page.match(/^(homepage|category)$/)
   }
 }

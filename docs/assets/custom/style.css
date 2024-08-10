@@ -1,11 +1,7 @@
+@import url('./fonts.css');
+
 * {
   box-sizing: border-box;
-}
-
-:root {
-    --black: #010800;
-    --white: #fef8ff;
-    --logo-color: #fdbe39;
 }
 
 body {
@@ -231,6 +227,15 @@ img {
     color: var(--title-color);
 }
 
+@keyframes title-weight {
+    33% {
+        font-weight: 700
+    }
+    to {
+        font-weight: 600
+    }
+}
+
 .post-title-link {
     color: inherit;
     text-decoration-style: wavy;
@@ -241,6 +246,9 @@ img {
 /*
  * Dotted underline renders as squares in mobile,
  * so use them only on bigger screens.
+ *
+ * Similarly, variable font animation is smooth
+ * only in bigger screens.
  * */
 @media ((min-width: 420px) and (min-height: 900px)),
        ((min-width: 900px) and (min-height: 420px)) {
@@ -248,6 +256,15 @@ img {
         text-decoration-thickness: 0.12em;
         text-decoration-style: dotted;
         text-underline-offset: 0.09em;
+    }
+
+    .post-title {
+        font-weight: 100;
+    }
+
+    .active-panel .post-title,
+    .Page-post .post-title {
+        animation: title-weight 1s forwards;
     }
 }
 

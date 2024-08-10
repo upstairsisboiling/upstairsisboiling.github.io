@@ -9,13 +9,9 @@
             <link rel="alternate" type="application/rss+xml" title="Upstairs is boiling misc Feed" href="https://enes.in/upstairs-is-boiling/upstairs-is-boiling/misc/feed.xml">
 
 
-        <link rel="stylesheet" href="/upstairs-is-boiling/assets/zen/style/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/style.css">
+                        <link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/theme-settings.css">
 
-<link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/theme-settings.css">
+<link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/style.css">
     </head>
 
     <body class="Page-category">
@@ -130,8 +126,104 @@
   const getCSSProperty = (key, element = window.document.documentElement) => {
     return element.style.getPropertyValue(key)
   }
-</script>
 
+  const translateToPropertyName = (name) => {
+    const upperCase = name.match(/[A-Z]/)
+    if (!upperCase) {
+      return `--${name}`
+    }
+    const [part1, ...restParts] = name.split(upperCase[0])
+    const part2 = upperCase[0]
+      .toLowerCase()
+      .concat(
+        translateToPropertyName(restParts.join(upperCase[0])).replace(/--/, '')
+      )
+    return `--${part1}-${part2}`.replace(/^---/, '--')
+  }
+
+  class ThemeVariable {
+    constructor(key, value) {
+      this.key = key
+      this.value = value
+      this.name = translateToPropertyName(key)
+    }
+
+    setCSSProperty() {
+      return setCSSProperty(this.name, this.value)
+    }
+
+    getCSSProperty() {
+      return getCSSProperty(this.name)
+    }
+  }
+
+  class ThemeVariables {
+    constructor(variables) {
+      this.variables = Object.keys(variables).reduce((result, key) => {
+        return {
+          ...result,
+          [key]: new ThemeVariable(key, variables[key])
+        }
+      }, {})
+    }
+
+    hasVariables() {
+      return !!Object.keys(this.variables).length
+    }
+
+    activate() {
+      Object.keys(this.variables).forEach(key => {
+        const themeVariable = this.variables[key]
+        themeVariable.setCSSProperty()
+      })
+    }
+  }
+
+  const defaultThemeVariables = new ThemeVariables({
+    black: getCSSProperty('--black'),
+    white: getCSSProperty('--white'),
+    logoColor: getCSSProperty('--logo-color')
+  })
+
+
+
+
+  const activateCarouselPanelThemeVariables = (themeVariables) => {
+    const container = document.querySelector('[data-region-id="main"]')
+
+    if (!container) {
+      return
+    }
+
+    const activate = () => {
+      const activeClass = 'active-panel'
+      Array.from(container.children).forEach((panel, index) => {
+        const smoothFactor = window.innerHeight / 5
+        if (Math.abs(container.scrollTop - panel.offsetTop) > smoothFactor) {
+          return panel.classList.remove(activeClass)
+        }
+        if (panel.classList.contains(activeClass)) {
+          return
+        }
+        panel.classList.add(activeClass)
+        const variables = new ThemeVariables(themeVariables[index])
+        if (variables.hasVariables()) {
+          return variables.activate()
+        }
+        return defaultThemeVariables.activate()
+      })
+    }
+
+    activate()
+    container.addEventListener('scroll', () => {
+      activate(container)
+    })
+  }
+
+  activateCarouselPanelThemeVariables(window.themeVariables)
+
+
+</script>
         <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
     </body>
 

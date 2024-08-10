@@ -9,13 +9,9 @@
             <link rel="alternate" type="application/rss+xml" title="Upstairs is boiling Feed" href="https://enes.in/upstairs-is-boiling/feed.xml">
 
 
-        <link rel="stylesheet" href="/upstairs-is-boiling/assets/zen/style/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/style.css">
+                        <link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/theme-settings.css">
 
-<link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/theme-settings.css">
+<link rel="stylesheet" href="/upstairs-is-boiling/assets/custom/style.css">
     </head>
 
     <body class="Page-post">
@@ -108,13 +104,74 @@
   const getCSSProperty = (key, element = window.document.documentElement) => {
     return element.style.getPropertyValue(key)
   }
-</script>
 
-<script>
-  const { logoColor } = window.themeVariables[0]
-  if (logoColor) {
-    setCSSProperty('--logo-color', logoColor)
+  const translateToPropertyName = (name) => {
+    const upperCase = name.match(/[A-Z]/)
+    if (!upperCase) {
+      return `--${name}`
+    }
+    const [part1, ...restParts] = name.split(upperCase[0])
+    const part2 = upperCase[0]
+      .toLowerCase()
+      .concat(
+        translateToPropertyName(restParts.join(upperCase[0])).replace(/--/, '')
+      )
+    return `--${part1}-${part2}`.replace(/^---/, '--')
   }
+
+  class ThemeVariable {
+    constructor(key, value) {
+      this.key = key
+      this.value = value
+      this.name = translateToPropertyName(key)
+    }
+
+    setCSSProperty() {
+      return setCSSProperty(this.name, this.value)
+    }
+
+    getCSSProperty() {
+      return getCSSProperty(this.name)
+    }
+  }
+
+  class ThemeVariables {
+    constructor(variables) {
+      this.variables = Object.keys(variables).reduce((result, key) => {
+        return {
+          ...result,
+          [key]: new ThemeVariable(key, variables[key])
+        }
+      }, {})
+    }
+
+    hasVariables() {
+      return !!Object.keys(this.variables).length
+    }
+
+    activate() {
+      Object.keys(this.variables).forEach(key => {
+        const themeVariable = this.variables[key]
+        themeVariable.setCSSProperty()
+      })
+    }
+  }
+
+  const defaultThemeVariables = new ThemeVariables({
+    black: getCSSProperty('--black'),
+    white: getCSSProperty('--white'),
+    logoColor: getCSSProperty('--logo-color')
+  })
+
+
+  const variables = new ThemeVariables(window.themeVariables[0])
+  if (variables.hasVariables) {
+    variables.activate()
+  }
+
+
+
+
 </script>
         <script type="text/javascript" src="/upstairs-is-boiling/assets/custom/script.js"></script>
     </body>
