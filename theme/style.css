@@ -125,13 +125,13 @@ img {
     max-height: 40dvw;
     max-width: 80dvw;
     overflow: visible;
-    color: transparent;
-    stroke-width: 1;
-    stroke: #ff80c0;
-    stroke-dasharray: 40;
     stroke-linecap: round;
-    stroke-dashoffset: 0;
-    animation: header-logo-stroke .5s linear forwards;
+    stroke-width: 0;
+    stroke-dasharray: 120;
+    stroke-dashoffset: -25;
+    stroke: var(--logo-color);
+    color: var(--logo-color);
+    animation: header-logo-stroke .5s linear 1;
 }
 
 .header-logo-image:hover {
@@ -143,6 +143,13 @@ img {
 }
 
 @keyframes header-logo-stroke {
+    from {
+        color: transparent;
+        stroke-width: 1;
+        stroke: #ff80c0;
+        stroke-dasharray: 40;
+        stroke-dashoffset: 0;
+    }
     70% {
         color: transparent;
     }

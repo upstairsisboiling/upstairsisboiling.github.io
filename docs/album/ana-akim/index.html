@@ -151,10 +151,11 @@
     }
   }
 
+  // Quirky DOM API behavior: setting empty string will cause a reset to initial.
   const defaultThemeVariables = new ThemeVariables({
-    black: getCSSProperty('--black'),
-    white: getCSSProperty('--white'),
-    logoColor: getCSSProperty('--logo-color')
+    black: '',
+    white: '',
+    logoColor: '',
   })
 
 
