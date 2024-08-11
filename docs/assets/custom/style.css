@@ -316,7 +316,7 @@ img {
 }
 
 .post-youtube {
-    width: clamp(300px, 1440px, 90vw);
+    width: clamp(300px, 960px, 60vw);
     aspect-ratio: 16/9;
     max-width: initial;
     max-height: initial;
