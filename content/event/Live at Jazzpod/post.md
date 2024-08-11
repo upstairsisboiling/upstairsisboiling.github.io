@@ -5,6 +5,7 @@ textColor: '#faead6'
 accentColor: '#faead6'
 logoColor: palevioletred
 youtube: https://www.youtube.com/watch?v=LiNJG00UcIA
+summary: ''
 ---
 Lorem sit corporis quas amet quia Sint non maxime at eveniet ipsam, quibusdam! Eveniet molestias iusto quae molestias magni. Fugiat obcaecati adipisci sit delectus consequatur Adipisci ducimus fuga reprehenderit delectus
 
