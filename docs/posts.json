@@ -2,7 +2,7 @@
   {
     "type": "album",
     "title": "Ân'a akım",
-    "cover": "/upstairs-is-boiling/album/ana-akim/kapak.jpg",
+    "cover": "/album/ana-akim/kapak.jpg",
     "media": "",
     "summary": "",
     "tags": [],
@@ -10,10 +10,10 @@
     "spotify": "https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie",
     "date": "08.17.2024",
     "slug": "ana-akim",
-    "permalink": "/upstairs-is-boiling/album/ana-akim",
+    "permalink": "/album/ana-akim",
     "category": {
       "name": "album",
-      "permalink": "/upstairs-is-boiling/album"
+      "permalink": "/album"
     },
     "path": "album/Ân'a akım/post.md",
     "handle": "album/Ân'a akım",
@@ -45,7 +45,7 @@
     "links": {
       "previousPost": {
         "title": "Ona yakın",
-        "permalink": "/upstairs-is-boiling/album/ona-yakin"
+        "permalink": "/album/ona-yakin"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -57,7 +57,7 @@
     "title": "Live at Jazzpod",
     "cover": "",
     "media": "",
-    "summary": "",
+    "summary": "<p>Lorem sit corporis quas amet quia Sint non maxime at eveniet ipsam, quibusdam! Eveniet molestias iusto quae molestias magni. Fugiat obcaecati adipisci sit delectus consequatur Adipisci ducimus fuga reprehenderit delectus</p>\n<p><img src=\"/event/live-at-jazzpod/IMG_1584.JPG\" alt=\"Photo showing the upstairs is boiling performing at Jazzpod\"></p>\n<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>\n<p>Lorem numquam sapiente est saepe fuga obcaecati sint quo Voluptates eveniet voluptatem similique exercitationem porro quis deserunt Quibusdam voluptates asperiores soluta rem voluptate? Qui totam consequuntur sed error eius. Distinctio! Ipsum aperiam ad officiis dignissimos laudantium. Tempore natus dicta eum nisi eligendi Esse magnam quod assumenda?</p>\n<p>Consectetur ullam voluptatibus maiores cum ad. Beatae dignissimos ducimus aut maiores asperiores reiciendis Illo in labore tempora quis corporis! Impedit corrupti cupiditate in consequuntur quia Deleniti minima distinctio quia sunt. Consectetur dolores veritatis officiis corrupti dolorem fugiat Impedit ad distinctio modi quod excepturi? Nesciunt quaerat sint commodi repudiandae voluptas perferendis! Aliquid hic nemo labore at sunt Numquam quibusdam sed perspiciatis?</p>\n<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>\n",
     "tags": [],
     "date": "08.08.2024",
     "backgroundColor": "#1f1c19",
@@ -66,15 +66,24 @@
     "logoColor": "palevioletred",
     "youtube": "https://www.youtube.com/watch?v=LiNJG00UcIA",
     "slug": "live-at-jazzpod",
-    "permalink": "/upstairs-is-boiling/event/live-at-jazzpod.html",
+    "permalink": "/event/live-at-jazzpod",
     "category": {
       "name": "event",
-      "permalink": "/upstairs-is-boiling/event"
+      "permalink": "/event"
     },
-    "path": "event/Live at Jazzpod.md",
+    "path": "event/Live at Jazzpod/post.md",
     "handle": "event/Live at Jazzpod",
-    "foldered": false,
-    "localAssets": [],
+    "foldered": true,
+    "localAssets": [
+      {
+        "name": "IMG_1584.JPG",
+        "path": "event/Live at Jazzpod/IMG_1584.JPG",
+        "depth": 2,
+        "extension": ".JPG",
+        "isFolder": false,
+        "type": "localAsset"
+      }
+    ],
     "publishDate": "2024-08-07T21:00:00.000Z",
     "publishDateUTC": "Wed, 07 Aug 2024 21:00:00 GMT",
     "publishDateFull": "Thursday, August 8, 2024",
@@ -84,7 +93,7 @@
     "links": {
       "previousPost": {
         "title": "The last meetup",
-        "permalink": "/upstairs-is-boiling/event/the-last-meetup"
+        "permalink": "/event/the-last-meetup"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -94,7 +103,7 @@
   {
     "type": "text",
     "title": "Hola",
-    "cover": "/upstairs-is-boiling/misc/hola/tian-shan-4.jpg",
+    "cover": "/misc/hola/tian-shan-4.jpg",
     "media": "",
     "summary": "",
     "tags": [],
@@ -104,10 +113,10 @@
     "logoColor": "#4352cc",
     "accentColor": "crimson",
     "slug": "hola",
-    "permalink": "/upstairs-is-boiling/misc/hola",
+    "permalink": "/misc/hola",
     "category": {
       "name": "misc",
-      "permalink": "/upstairs-is-boiling/misc"
+      "permalink": "/misc"
     },
     "path": "misc/Hola/post.md",
     "handle": "misc/Hola",
@@ -137,7 +146,7 @@
   {
     "type": "single",
     "title": "Mona",
-    "cover": "/upstairs-is-boiling/single/mona/cover.jpg",
+    "cover": "/single/mona/cover.jpg",
     "media": "",
     "summary": "",
     "tags": [],
@@ -148,10 +157,10 @@
     "backgroundColor": "rebeccapurple",
     "accentColor": "blanchedalmond",
     "slug": "mona",
-    "permalink": "/upstairs-is-boiling/single/mona",
+    "permalink": "/single/mona",
     "category": {
       "name": "single",
-      "permalink": "/upstairs-is-boiling/single"
+      "permalink": "/single"
     },
     "path": "single/Mona/post.md",
     "handle": "single/Mona",
@@ -175,7 +184,7 @@
     "links": {
       "previousPost": {
         "title": "Lisa",
-        "permalink": "/upstairs-is-boiling/single/lisa.html"
+        "permalink": "/single/lisa.html"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -185,7 +194,7 @@
   {
     "type": "event",
     "title": "The last meetup",
-    "cover": "/upstairs-is-boiling/event/the-last-meetup/himalaya-11.jpg",
+    "cover": "/event/the-last-meetup/himalaya-11.jpg",
     "media": "",
     "summary": "<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro.</p>\n<p>Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>\n",
     "tags": [],
@@ -195,10 +204,10 @@
     "logoColor": "white",
     "coverStyle": "abstract",
     "slug": "the-last-meetup",
-    "permalink": "/upstairs-is-boiling/event/the-last-meetup",
+    "permalink": "/event/the-last-meetup",
     "category": {
       "name": "event",
-      "permalink": "/upstairs-is-boiling/event"
+      "permalink": "/event"
     },
     "path": "event/The last meetup/post.md",
     "handle": "event/The last meetup",
@@ -230,7 +239,7 @@
     "links": {
       "nextPost": {
         "title": "Live at Jazzpod",
-        "permalink": "/upstairs-is-boiling/event/live-at-jazzpod.html"
+        "permalink": "/event/live-at-jazzpod"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -240,7 +249,7 @@
   {
     "type": "album",
     "title": "Ona yakın",
-    "cover": "/upstairs-is-boiling/album/ona-yakin/ona yakın mobil.png",
+    "cover": "/album/ona-yakin/ona yakın mobil.png",
     "media": "",
     "summary": "",
     "tags": [],
@@ -251,10 +260,10 @@
     "backgroundColor": "palevioletred",
     "accentColor": "navajowhite",
     "slug": "ona-yakin",
-    "permalink": "/upstairs-is-boiling/album/ona-yakin",
+    "permalink": "/album/ona-yakin",
     "category": {
       "name": "album",
-      "permalink": "/upstairs-is-boiling/album"
+      "permalink": "/album"
     },
     "path": "album/On'a yakın/post.md",
     "handle": "album/On'a yakın",
@@ -278,7 +287,7 @@
     "links": {
       "nextPost": {
         "title": "Ân'a akım",
-        "permalink": "/upstairs-is-boiling/album/ana-akim"
+        "permalink": "/album/ana-akim"
       },
       "relevantPosts": [],
       "mentionedTo": [],
@@ -295,10 +304,10 @@
     "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
     "date": "09.21.2022",
     "slug": "lisa",
-    "permalink": "/upstairs-is-boiling/single/lisa.html",
+    "permalink": "/single/lisa.html",
     "category": {
       "name": "single",
-      "permalink": "/upstairs-is-boiling/single"
+      "permalink": "/single"
     },
     "path": "single/Lisa.md",
     "handle": "single/Lisa",
@@ -313,7 +322,7 @@
     "links": {
       "nextPost": {
         "title": "Mona",
-        "permalink": "/upstairs-is-boiling/single/mona"
+        "permalink": "/single/mona"
       },
       "relevantPosts": [],
       "mentionedTo": [],

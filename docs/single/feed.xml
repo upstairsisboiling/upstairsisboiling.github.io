@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Upstairs is boiling | single</title>
-        <link>https://enes.in/upstairs-is-boiling/single</link>
+        <link>https://upstairsisboiling.github.io/single</link>
         <description>single category on Upstairs is boiling</description>
         <language>en</language>
         <image>
             <title>Upstairs is boiling</title>
-            <url>https://enes.in/upstairs-is-boiling/assets/common/writ-icon-512.png</url>
-            <link>https://enes.in/upstairs-is-boiling</link>
+            <url>https://upstairsisboiling.github.io/assets/common/writ-icon-512.png</url>
+            <link>https://upstairsisboiling.github.io</link>
         </image>
         <category>album</category>
         <category>event</category>
         <category>misc</category>
         <category>single</category>
-        <lastBuildDate>Sun Aug 11 2024 15:41:41 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <lastBuildDate>Sun Aug 11 2024 22:40:08 GMT+0300 (GMT+03:00)</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
-        <atom:link href="https://enes.in/upstairs-is-boiling/single/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://upstairsisboiling.github.io/single/feed.xml" rel="self" type="application/rss+xml" />
         <item>
             <title><![CDATA[Mona]]></title>
-            <link>https://enes.in/upstairs-is-boiling/single/mona</link>
-            <guid>https://enes.in/upstairs-is-boiling/single/mona</guid>
+            <link>https://upstairsisboiling.github.io/single/mona</link>
+            <guid>https://upstairsisboiling.github.io/single/mona</guid>
             <pubDate>Wed, 20 Mar 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://enes.in/upstairs-is-boiling/single/mona/cover.jpg" alt="Kapak"></div>
+      <div><img src="https://upstairsisboiling.github.io/single/mona/cover.jpg" alt="Kapak"></div>
       
     ]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Lisa]]></title>
-            <link>https://enes.in/upstairs-is-boiling/single/lisa.html</link>
-            <guid>https://enes.in/upstairs-is-boiling/single/lisa.html</guid>
+            <link>https://upstairsisboiling.github.io/single/lisa.html</link>
+            <guid>https://upstairsisboiling.github.io/single/lisa.html</guid>
             <pubDate>Tue, 20 Sep 2022 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[]]></content:encoded>
