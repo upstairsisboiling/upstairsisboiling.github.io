@@ -1,0 +1,13 @@
+{
+  "name": "upstairs-is-boiling",
+  "version": "1.0.0",
+  "description": "Upstairs is boiling website",
+  "scripts": {
+    "start": "node _scripts/start",
+    "build": "node _scripts/build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "writ-cms": "github:scriptype/writ-cms#154f3df7ed67d8c64bd074f37a87d5fd3d20093a"
+  }
+}

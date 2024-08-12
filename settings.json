@@ -2,5 +2,15 @@
   "theme": "zen",
   "language": "en",
   "url": "https://upstairsisboiling.com",
-  "rss": "on"
+  "rss": "on",
+  "ignorePaths": [
+    ".git",
+    ".gitignore",
+    "README.md",
+    ".DS_Store",
+    "^_.*",
+    "settings.json",
+    "CNAME",
+    "node_modules"
+  ]
 }
