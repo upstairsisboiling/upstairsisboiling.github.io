@@ -12,8 +12,17 @@
     "slug": "ana-akim",
     "permalink": "/album/ana-akim",
     "category": {
+      "type": "basic",
       "name": "album",
-      "permalink": "/album"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "albums",
+      "singular": "album",
+      "slug": "album",
+      "permalink": "/album",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+      "localAssets": []
     },
     "path": "album/Ân'a akım/post.md",
     "handle": "album/Ân'a akım",
@@ -68,8 +77,17 @@
     "slug": "live-at-jazzpod",
     "permalink": "/event/live-at-jazzpod",
     "category": {
+      "type": "basic",
       "name": "event",
-      "permalink": "/event"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "events",
+      "singular": "event",
+      "slug": "event",
+      "permalink": "/event",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
+      "localAssets": []
     },
     "path": "event/Live at Jazzpod/post.md",
     "handle": "event/Live at Jazzpod",
@@ -115,8 +133,15 @@
     "slug": "hola",
     "permalink": "/misc/hola",
     "category": {
+      "type": "basic",
       "name": "misc",
-      "permalink": "/misc"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "slug": "misc",
+      "permalink": "/misc",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/misc/index.html",
+      "localAssets": []
     },
     "path": "misc/Hola/post.md",
     "handle": "misc/Hola",
@@ -159,8 +184,17 @@
     "slug": "mona",
     "permalink": "/single/mona",
     "category": {
+      "type": "basic",
       "name": "single",
-      "permalink": "/single"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "singles",
+      "singular": "single",
+      "slug": "single",
+      "permalink": "/single",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+      "localAssets": []
     },
     "path": "single/Mona/post.md",
     "handle": "single/Mona",
@@ -206,8 +240,17 @@
     "slug": "the-last-meetup",
     "permalink": "/event/the-last-meetup",
     "category": {
+      "type": "basic",
       "name": "event",
-      "permalink": "/event"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "events",
+      "singular": "event",
+      "slug": "event",
+      "permalink": "/event",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
+      "localAssets": []
     },
     "path": "event/The last meetup/post.md",
     "handle": "event/The last meetup",
@@ -262,8 +305,17 @@
     "slug": "ona-yakin",
     "permalink": "/album/ona-yakin",
     "category": {
+      "type": "basic",
       "name": "album",
-      "permalink": "/album"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "albums",
+      "singular": "album",
+      "slug": "album",
+      "permalink": "/album",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+      "localAssets": []
     },
     "path": "album/On'a yakın/post.md",
     "handle": "album/On'a yakın",
@@ -306,8 +358,17 @@
     "slug": "lisa",
     "permalink": "/single/lisa.html",
     "category": {
+      "type": "basic",
       "name": "single",
-      "permalink": "/single"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "singles",
+      "singular": "single",
+      "slug": "single",
+      "permalink": "/single",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+      "localAssets": []
     },
     "path": "single/Lisa.md",
     "handle": "single/Lisa",

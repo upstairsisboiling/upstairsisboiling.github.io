@@ -1,0 +1,4 @@
+---
+plural: events
+singular: event
+---

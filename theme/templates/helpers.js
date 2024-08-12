@@ -1,4 +1,12 @@
 module.exports = {
+  singularCategoryName(category) {
+    return category.singular || category.name
+  },
+
+  pluralCategoryName(category) {
+    return category.plural || category.name
+  },
+
   isOnlyCard() {
     const possibleCards = [this.cover, this.spotify, this.youtube].filter(Boolean)
     return possibleCards.length === 1 ? 'only-card' : ''

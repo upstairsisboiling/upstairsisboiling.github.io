@@ -1,0 +1,4 @@
+---
+plural: albums
+singular: album
+---

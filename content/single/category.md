@@ -1,0 +1,4 @@
+---
+plural: singles
+singular: single
+---
