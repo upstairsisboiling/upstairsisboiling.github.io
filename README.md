@@ -47,12 +47,13 @@ Everything content-related resides inside `content` folder.
 Writ-CMS works in a simple way:
 
 - Text files inside `content` become posts,
-- Text files inside `content/pages` folder become subpages,
+- Text files inside `content/pages` become subpages,
 - A text file named `index` or `homepage` inside `content` becomes the homepage,
 - Folders inside `content` become categories,
 - In `content` or in a category, a folder containing a post.md becomes a foldered post.
-- In `pages`, a folder containing a page.md becomes a foldered post.
+- In `pages`, a folder containing a page.md becomes a foldered subpage.
 - Posts inside categories become categorized posts.
+- Any other files are registered as local assets to their closest parent entry (e.g. a post)
 
 Sub-categories are currently not supported.
 
@@ -100,9 +101,10 @@ All templates are rendered using [Handlebars](https://handlebarsjs.com).
 - `templates/pages` contains the templates for each page type.
 - `templates/helpers.js` contains Handlebars helpers.
 
-When make changes to the Handlebars helpers, you need to restart the watcher.
+After making changes to the Handlebars helpers, you need to restart the watcher.
+By default, all posts will have 'text' type.
 
-###### Adding new post types
+##### Adding new post types
 
 `templates/pages/post` has a few subfolders, corresponding to different post types.
 By adding another, you simply introduce a new post type.
@@ -113,13 +115,12 @@ You can set a post's type by adding `type: nameOfTheType` in its front-matter.
 
 Writ-CMS is configured in the `settings.json` and extended programmatically inside `_scripts`.
 
-All possible values for settings: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/settings.js
+`_scripts` folder is used by npm scripts. Here `_scripts/writ.js` extends the
+writ-cms by using a hook for customizing the content model.
 
-Inside `_scripts` folder is intended to be used by npm scripts. Here `_scripts/writ.js`
-extends the writ-cms by using a hook for customizing the content model.
-
-All hooks: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/hooks/index.js
-Example usages of hooks: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/tests/programmatic.js#L621
+- [All settings](https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/settings.js)
+- [All hooks](https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/hooks/index.js)
+- [Example usages of hooks](https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/tests/programmatic.js#L621)
 
 </details>
 
