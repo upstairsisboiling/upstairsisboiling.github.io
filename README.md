@@ -111,8 +111,16 @@ You can set a post's type by adding `type: nameOfTheType` in its front-matter.
 
 ### Configuration
 
-Writ-CMS is configured in the `settings.json` and extended programmatically inside
-`_scripts`.
+Writ-CMS is configured in the `settings.json` and extended programmatically inside `_scripts`.
+
+All possible values for settings: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/settings.js
+
+Inside `_scripts` folder is intended to be used by npm scripts. Here `_scripts/writ.js`
+extends the writ-cms by using a hook for customizing the content model.
+
+All hooks: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/hooks/index.js
+Example usages of hooks: https://github.com/scriptype/writ-cms/blob/3181ed4a31f240579c7a30f23cd4c7252ec8a329/src/tests/programmatic.js#L621
+
 </details>
 
 
