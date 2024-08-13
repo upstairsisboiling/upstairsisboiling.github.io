@@ -56,7 +56,7 @@ Writ-CMS works in a simple way:
 
 Sub-categories are currently not supported.
 
-### Text files
+#### Text files
 
 Text files can be written in HTML, markdown or plain text. You can use handlebars
 expressions.
