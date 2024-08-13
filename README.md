@@ -32,16 +32,16 @@ npm run build
 - A command-line terminal program such as <a href="https://iterm2.com/">iTerm2</a> or <a href="https://git-scm.com/">Git Bash</a>.
 - Git (<a href="https://git-scm.com">Download</a>)
 - Node.js & npm (<a href="https://nodejs.org/en">Download</a>)
-- Writ-CMS (<a href="https://github.com/scriptype/writ-cms#installation">Download</a>)
 
 ### Download the project by running this command:
 
 ```sh
 git clone git@github.com:upstairsisboiling/upstairsisboiling.github.io.git
 cd upstairsisboiling.github.io
+npm install
 ```
 
-### Start watcher:
+### Start:
 
 ```sh
 npm start
