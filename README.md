@@ -3,7 +3,7 @@
 Welcome to the source repository of <a href="https://upstairsisboiling.com">Upstairs is boiling website</a>.
 
 <details>
-<summary><h2>Install</h2></summary>
+<summary><h2>Installation</h2></summary>
 
 ### Make sure you have these installed in your system:
 
