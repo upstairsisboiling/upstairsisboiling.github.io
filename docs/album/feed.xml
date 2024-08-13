@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Upstairs is boiling | album</title>
-        <link>https://upstairsisboiling.github.io/album</link>
+        <link>https://upstairsisboiling.com/album</link>
         <description>album category on Upstairs is boiling</description>
         <language>en</language>
         <image>
             <title>Upstairs is boiling</title>
-            <url>https://upstairsisboiling.github.io/assets/common/writ-icon-512.png</url>
-            <link>https://upstairsisboiling.github.io</link>
+            <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
+            <link>https://upstairsisboiling.com</link>
         </image>
         <category>album</category>
         <category>event</category>
         <category>misc</category>
         <category>single</category>
-        <lastBuildDate>Mon Aug 12 2024 23:48:16 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <lastBuildDate>Tue Aug 13 2024 12:18:18 GMT+0300 (GMT+03:00)</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
-        <atom:link href="https://upstairsisboiling.github.io/album/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://upstairsisboiling.com/album/feed.xml" rel="self" type="application/rss+xml" />
         <item>
             <title><![CDATA[Ân'a akım]]></title>
-            <link>https://upstairsisboiling.github.io/album/ana-akim</link>
-            <guid>https://upstairsisboiling.github.io/album/ana-akim</guid>
+            <link>https://upstairsisboiling.com/album/ana-akim</link>
+            <guid>https://upstairsisboiling.com/album/ana-akim</guid>
             <pubDate>Fri, 16 Aug 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.github.io/album/ana-akim/kapak.jpg" alt="An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."></div>
+      <div><img src="https://upstairsisboiling.com/album/ana-akim/kapak.jpg" alt="An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."></div>
       <p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
 <p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
 <p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
@@ -35,12 +35,12 @@
         </item>
         <item>
             <title><![CDATA[Ona yakın]]></title>
-            <link>https://upstairsisboiling.github.io/album/ona-yakin</link>
-            <guid>https://upstairsisboiling.github.io/album/ona-yakin</guid>
+            <link>https://upstairsisboiling.com/album/ona-yakin</link>
+            <guid>https://upstairsisboiling.com/album/ona-yakin</guid>
             <pubDate>Tue, 21 Nov 2023 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.github.io/album/ona-yakin/ona%20yak%C4%B1n%20mobil.png" alt="Mobil mockup"></div>
+      <div><img src="https://upstairsisboiling.com/album/ona-yakin/ona%20yak%C4%B1n%20mobil.png" alt="Mobil mockup"></div>
       
     ]]></content:encoded>
         </item>

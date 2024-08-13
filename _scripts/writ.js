@@ -5,8 +5,8 @@ const writ = require('writ-cms')
 // TODO: do it inside compiler
 writ.useContentModel(contentModel => {
   contentModel.categories.forEach(category => {
+    const { posts, ...restCategory } = category
     category.posts.forEach(post => {
-      const { posts, ...restCategory } = category
       post.category = restCategory
     })
   })

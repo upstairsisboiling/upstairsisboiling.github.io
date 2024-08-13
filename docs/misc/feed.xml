@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Upstairs is boiling | misc</title>
-        <link>https://upstairsisboiling.github.io/misc</link>
+        <link>https://upstairsisboiling.com/misc</link>
         <description>misc category on Upstairs is boiling</description>
         <language>en</language>
         <image>
             <title>Upstairs is boiling</title>
-            <url>https://upstairsisboiling.github.io/assets/common/writ-icon-512.png</url>
-            <link>https://upstairsisboiling.github.io</link>
+            <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
+            <link>https://upstairsisboiling.com</link>
         </image>
         <category>album</category>
         <category>event</category>
         <category>misc</category>
         <category>single</category>
-        <lastBuildDate>Mon Aug 12 2024 23:48:16 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <lastBuildDate>Tue Aug 13 2024 12:18:18 GMT+0300 (GMT+03:00)</lastBuildDate>
         <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
-        <atom:link href="https://upstairsisboiling.github.io/misc/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://upstairsisboiling.com/misc/feed.xml" rel="self" type="application/rss+xml" />
         <item>
             <title><![CDATA[Hola]]></title>
-            <link>https://upstairsisboiling.github.io/misc/hola</link>
-            <guid>https://upstairsisboiling.github.io/misc/hola</guid>
+            <link>https://upstairsisboiling.com/misc/hola</link>
+            <guid>https://upstairsisboiling.com/misc/hola</guid>
             <pubDate>Sat, 15 Jun 2024 21:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.github.io/misc/hola/tian-shan-4.jpg" alt="undefined"></div>
+      <div><img src="https://upstairsisboiling.com/misc/hola/tian-shan-4.jpg" alt="undefined"></div>
       
     ]]></content:encoded>
         </item>

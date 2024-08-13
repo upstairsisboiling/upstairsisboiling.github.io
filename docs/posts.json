@@ -56,7 +56,26 @@
         "title": "Ona yakın",
         "permalink": "/album/ona-yakin"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Ona yakın",
+          "permalink": "/album/ona-yakin",
+          "category": {
+            "type": "basic",
+            "name": "album",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "albums",
+            "singular": "album",
+            "slug": "album",
+            "permalink": "/album",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -113,7 +132,26 @@
         "title": "The last meetup",
         "permalink": "/event/the-last-meetup"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "The last meetup",
+          "permalink": "/event/the-last-meetup",
+          "category": {
+            "type": "basic",
+            "name": "event",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "events",
+            "singular": "event",
+            "slug": "event",
+            "permalink": "/event",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -220,7 +258,26 @@
         "title": "Lisa",
         "permalink": "/single/lisa.html"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Lisa",
+          "permalink": "/single/lisa.html",
+          "category": {
+            "type": "basic",
+            "name": "single",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "singles",
+            "singular": "single",
+            "slug": "single",
+            "permalink": "/single",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -284,7 +341,26 @@
         "title": "Live at Jazzpod",
         "permalink": "/event/live-at-jazzpod"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Live at Jazzpod",
+          "permalink": "/event/live-at-jazzpod",
+          "category": {
+            "type": "basic",
+            "name": "event",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "events",
+            "singular": "event",
+            "slug": "event",
+            "permalink": "/event",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -341,7 +417,26 @@
         "title": "Ân'a akım",
         "permalink": "/album/ana-akim"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Ân'a akım",
+          "permalink": "/album/ana-akim",
+          "category": {
+            "type": "basic",
+            "name": "album",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "albums",
+            "singular": "album",
+            "slug": "album",
+            "permalink": "/album",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -385,7 +480,26 @@
         "title": "Mona",
         "permalink": "/single/mona"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Mona",
+          "permalink": "/single/mona",
+          "category": {
+            "type": "basic",
+            "name": "single",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "singles",
+            "singular": "single",
+            "slug": "single",
+            "permalink": "/single",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
