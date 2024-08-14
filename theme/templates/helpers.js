@@ -50,16 +50,22 @@ module.exports = {
   },
 
   attachThemeVariables(entry) {
-    // keys can come from context or entry parameter
+    // keys can come from context or entry
     const logoColor = this.logoColor || entry.logoColor
+    const accentColor = this.accentColor || entry.accentColor
+
     const quote = (str) => {
       return `'${str.replace(/(^"|^'|"$|'$)/g, '')}'`
     }
+
     return `
       <script>
       window.themeVariables = [
         ...(window.themeVariables || []),
-        { ${logoColor ? `logoColor: ${quote(logoColor)},` : ''} }
+        {
+          logoColor: ${quote(logoColor || '')},
+          accentColor: ${quote(accentColor || '')}
+        }
       ]
       </script>
     `

@@ -64,6 +64,7 @@
     black: '',
     white: '',
     logoColor: '',
+    accentColor: ''
   })
 
 
@@ -91,7 +92,7 @@
           return panel.classList.remove(activeClass)
         }
         if (diffY > window.innerHeight / 5) {
-          return
+          return panel.classList.remove(activeClass)
         }
         if (panel.classList.contains(activeClass)) {
           return
@@ -105,10 +106,8 @@
       })
     }
 
+    container.addEventListener('scroll', activate)
     activate()
-    container.addEventListener('scroll', () => {
-      activate(container)
-    })
   }
 
   activateCarouselPanelThemeVariables(window.themeVariables)
