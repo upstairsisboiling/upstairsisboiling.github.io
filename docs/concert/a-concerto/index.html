@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A future work" />
         <link rel="icon" type="image/png" href="/assets/common/writ-icon-512.png">
-        <title>About us / Upstairs is boiling</title>
+        <title>A Concerto / Upstairs is boiling</title>
             <link rel="alternate" type="application/rss+xml" title="Upstairs is boiling Feed" href="https://upstairsisboiling.com/feed.xml">
 
 
@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="/assets/custom/style.css">
     </head>
 
-    <body class="Page-subpage">
+    <body class="Page-post">
         <div class="container"  data-region-id="container" >
       <header  data-region-id="header" >
       <h1 class="header-logo">
@@ -40,7 +40,7 @@
 </button>
 
 <nav class="header-menu" role="menu" id="headerMenu">
-    <a class="header-menu-link" style="--i: 0" href="/about-us">About us</a>
+    <a class="header-menu-link" style="--i: 0" href="/about">About</a>
     <a class="header-menu-link" style="--i: 1" href="/album">albums</a>
     <a class="header-menu-link" style="--i: 2" href="/concert">concerts</a>
     <a class="header-menu-link" style="--i: 3" href="/performance">performances</a>
@@ -49,22 +49,42 @@
     </header>
 
     <main  data-region-id="main" >
-      <article class="subpage subpage--basic">
-    <header class="subpage-header">
-        <h2>About us</h2>
-    </header>
-    <section class="subpage-content">
-            </section>
-    <footer class="subpage-footer">
-    <section class="subpage-footer-section">
-        <table class="subpage-metadata">
-            <tr class="subpage-metadata-date">
-                <td>Published at</td>
-                <td>Aug 16, 2024</td>
-            </tr>
-        </table>
+      <article class="post post--text" style="">
+  
+      <script>
+      window.themeVariables = [
+        ...(window.themeVariables || []),
+        {
+          logoColor: '',
+          accentColor: '',
+          backgroundColor: '',
+        }
+      ]
+      </script>
+    
+
+  <header class="post-header">
+    <a class="post-category-name" href="/concert">
+      concert
+    </a>
+    <h2 class="post-title">A Concerto</h2>
+    <p class="post-released">Aug 16, 2024</p>
+  </header>
+
+    <section class="grid-card grid-card-wide">
+      <div class="post-content">
+
+
+        <p>This is a concert</p>
+<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>
+<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>
+
+
+
+      </div>
     </section>
-</footer>
+
+
 </article>
     </main>
 </div>
@@ -179,6 +199,10 @@
 
 
 
+  const variables = new ThemeVariables(window.themeVariables[0])
+  if (variables.hasVariables) {
+    variables.activate()
+  }
 
 
 

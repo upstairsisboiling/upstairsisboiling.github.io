@@ -12,17 +12,8 @@
     "slug": "ana-akim",
     "permalink": "/album/ana-akim",
     "category": {
-      "type": "basic",
       "name": "album",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "albums",
-      "singular": "album",
-      "slug": "album",
-      "permalink": "/album",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-      "localAssets": []
+      "permalink": "/album"
     },
     "path": "album/Ân'a akım/post.md",
     "handle": "album/Ân'a akım",
@@ -56,26 +47,36 @@
         "title": "Ona yakın",
         "permalink": "/album/ona-yakin"
       },
-      "relevantPosts": [
-        {
-          "title": "Ona yakın",
-          "permalink": "/album/ona-yakin",
-          "category": {
-            "type": "basic",
-            "name": "album",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "albums",
-            "singular": "album",
-            "slug": "album",
-            "permalink": "/album",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
+      "relevantPosts": [],
+      "mentionedTo": [],
+      "mentionedBy": []
+    }
+  },
+  {
+    "type": "text",
+    "title": "A Concerto",
+    "cover": "",
+    "media": "",
+    "summary": "<p>This is a concert</p>\n<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>\n<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>\n",
+    "tags": [],
+    "slug": "a-concerto",
+    "permalink": "/concert/a-concerto",
+    "category": {
+      "name": "concert",
+      "permalink": "/concert"
+    },
+    "path": "concert/A Concerto/post.md",
+    "handle": "concert/A Concerto",
+    "foldered": true,
+    "localAssets": [],
+    "publishDate": "2024-08-15T22:55:50.630Z",
+    "publishDateUTC": "Thu, 15 Aug 2024 22:55:50 GMT",
+    "publishDateFull": "Friday, August 16, 2024",
+    "publishDateLong": "August 16, 2024",
+    "publishDateMedium": "Aug 16, 2024",
+    "publishDateShort": "8/16/24",
+    "links": {
+      "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -95,17 +96,8 @@
     "slug": "live-at-jazzpod",
     "permalink": "/performance/live-at-jazzpod",
     "category": {
-      "type": "basic",
       "name": "performance",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "performances",
-      "singular": "performance",
-      "slug": "performance",
-      "permalink": "/performance",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/performance/index.html",
-      "localAssets": []
+      "permalink": "/performance"
     },
     "path": "performance/Live at Jazzpod/post.md",
     "handle": "performance/Live at Jazzpod",
@@ -148,17 +140,8 @@
     "slug": "mona",
     "permalink": "/single/mona",
     "category": {
-      "type": "basic",
       "name": "single",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "singles",
-      "singular": "single",
-      "slug": "single",
-      "permalink": "/single",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-      "localAssets": []
+      "permalink": "/single"
     },
     "path": "single/Mona/post.md",
     "handle": "single/Mona",
@@ -184,26 +167,7 @@
         "title": "Lisa",
         "permalink": "/single/lisa.html"
       },
-      "relevantPosts": [
-        {
-          "title": "Lisa",
-          "permalink": "/single/lisa.html",
-          "category": {
-            "type": "basic",
-            "name": "single",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "singles",
-            "singular": "single",
-            "slug": "single",
-            "permalink": "/single",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
+      "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -224,17 +188,8 @@
     "slug": "ona-yakin",
     "permalink": "/album/ona-yakin",
     "category": {
-      "type": "basic",
       "name": "album",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "albums",
-      "singular": "album",
-      "slug": "album",
-      "permalink": "/album",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-      "localAssets": []
+      "permalink": "/album"
     },
     "path": "album/On'a yakın/post.md",
     "handle": "album/On'a yakın",
@@ -260,26 +215,7 @@
         "title": "Ân'a akım",
         "permalink": "/album/ana-akim"
       },
-      "relevantPosts": [
-        {
-          "title": "Ân'a akım",
-          "permalink": "/album/ana-akim",
-          "category": {
-            "type": "basic",
-            "name": "album",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "albums",
-            "singular": "album",
-            "slug": "album",
-            "permalink": "/album",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
+      "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -296,17 +232,8 @@
     "slug": "lisa",
     "permalink": "/single/lisa.html",
     "category": {
-      "type": "basic",
       "name": "single",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "singles",
-      "singular": "single",
-      "slug": "single",
-      "permalink": "/single",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-      "localAssets": []
+      "permalink": "/single"
     },
     "path": "single/Lisa.md",
     "handle": "single/Lisa",
@@ -323,26 +250,7 @@
         "title": "Mona",
         "permalink": "/single/mona"
       },
-      "relevantPosts": [
-        {
-          "title": "Mona",
-          "permalink": "/single/mona",
-          "category": {
-            "type": "basic",
-            "name": "single",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "singles",
-            "singular": "single",
-            "slug": "single",
-            "permalink": "/single",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
+      "relevantPosts": [],
       "mentionedTo": [],
       "mentionedBy": []
     }

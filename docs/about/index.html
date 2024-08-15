@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A future work" />
         <link rel="icon" type="image/png" href="/assets/common/writ-icon-512.png">
-        <title>performance / Upstairs is boiling</title>
-            <link rel="alternate" type="application/rss+xml" title="Upstairs is boiling performance Feed" href="https://upstairsisboiling.com/performance/feed.xml">
+        <title>About / Upstairs is boiling</title>
+            <link rel="alternate" type="application/rss+xml" title="Upstairs is boiling Feed" href="https://upstairsisboiling.com/feed.xml">
 
 
                         <link rel="stylesheet" href="/assets/custom/theme-settings.css">
@@ -14,10 +14,10 @@
 <link rel="stylesheet" href="/assets/custom/style.css">
     </head>
 
-    <body class="Page-category">
-        <div class="carousel-listing"  data-region-id="container" >
-  <header  data-region-id="header" >
-          <h1 class="header-logo">
+    <body class="Page-subpage">
+        <div class="container"  data-region-id="container" >
+      <header  data-region-id="header" >
+      <h1 class="header-logo">
   <a href="/">
     <svg class="header-logo-image" alt="Go to homepage">
       <use xlink:href="#logo-symbol"></use>
@@ -46,48 +46,35 @@
     <a class="header-menu-link" style="--i: 3" href="/performance">performances</a>
     <a class="header-menu-link" style="--i: 4" href="/single">singles</a>
 </nav>
-  </header>
+    </header>
 
-  
+    <main  data-region-id="main" >
+      <article class="subpage subpage--basic">
+    <header class="subpage-header">
+        <h2>About</h2>
+    </header>
+    <section class="subpage-content">
+        <style>
+body {
+    background: var(--black);
+    color: var(--white);
+}
+</style>
 
-    
-
-
-  <main class="carousel-panels"  data-region-id="main" >
-            <article class="post summary post--text" style="--text-color: #faead6;--background-color: #1f1c19;--accent-color: palevioletred;">
-  
-      <script>
-      window.themeVariables = [
-        ...(window.themeVariables || []),
-        {
-          logoColor: '',
-          accentColor: 'palevioletred',
-          backgroundColor: '#1f1c19',
-        }
-      ]
-      </script>
-    
-
-  <header class="post-header">
-    <a class="post-category-name" href="/performance">
-      performance
-    </a>
-    <h2 class="post-title">
-      <a class="post-title-link" href="/performance/live-at-jazzpod">Live at Jazzpod</a>
-    </h2>
-    <p class="post-released">Aug 8, 2024</p>
-  </header>
-
-
-
-
-      <section class="grid-card only-card">
-        <iframe class="post-youtube post-mobile-poster" src="https://www.youtube-nocookie.com/embed/LiNJG00UcIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </section>
-
-
+<p>This is us. This is about us.</p>
+    </section>
+    <footer class="subpage-footer">
+    <section class="subpage-footer-section">
+        <table class="subpage-metadata">
+            <tr class="subpage-metadata-date">
+                <td>Published at</td>
+                <td>Aug 16, 2024</td>
+            </tr>
+        </table>
+    </section>
+</footer>
 </article>
-  </main>
+    </main>
 </div>
         <svg class="svg-symbols">
   <symbol id="logo-symbol" viewBox="-3 59 287 20">
@@ -202,40 +189,6 @@
 
 
 
-  const activateCarouselPanelThemeVariables = (themeVariables) => {
-    const container = document.querySelector('[data-region-id="main"]')
-
-    if (!container) {
-      return
-    }
-
-    const activate = () => {
-      const activeClass = 'active-panel'
-      Array.from(container.children).forEach((panel, index) => {
-        const diffY = Math.abs(container.scrollTop - panel.offsetTop)
-        if (diffY >= container.offsetHeight && panel.classList.contains(activeClass)) {
-          return panel.classList.remove(activeClass)
-        }
-        if (diffY > window.innerHeight / 5) {
-          return panel.classList.remove(activeClass)
-        }
-        if (panel.classList.contains(activeClass)) {
-          return
-        }
-        panel.classList.add(activeClass)
-        const variables = new ThemeVariables(themeVariables[index])
-        if (variables.hasVariables()) {
-          return variables.activate()
-        }
-        return defaultThemeVariables.activate()
-      })
-    }
-
-    container.addEventListener('scroll', activate)
-    activate()
-  }
-
-  activateCarouselPanelThemeVariables(window.themeVariables)
 
 
 </script>
