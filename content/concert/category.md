@@ -1,0 +1,4 @@
+---
+plural: concerts
+singular: concert
+---

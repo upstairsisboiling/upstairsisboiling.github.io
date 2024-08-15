@@ -1,0 +1,4 @@
+---
+plural: performances
+singular: performance
+---

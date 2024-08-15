@@ -2,4 +2,6 @@
     --black: #010800;
     --white: #fef8ff;
     --logo-color: #fdbe39;
+    --accent-color: hotpink;
+    --background-color: var(--black);
 }

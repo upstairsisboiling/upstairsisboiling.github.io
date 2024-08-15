@@ -141,22 +141,24 @@
 }
 
 @media (min-height: 321px) {
-    .post-category-name {
-        display: inline-block;
-    }
-
     .post {
-        --padding-top: 40dvw;
+        --padding-top: 50dvw;
     }
 }
 
 @media (min-width: 431px) {
     .post {
-        --padding-top: 10dvh;
+        --padding-top: 15dvh;
     }
 
     .post-released {
         display: block;
+    }
+}
+
+@media (min-height: 500px) {
+    .post-category-name {
+        display: inline-block;
     }
 }
 

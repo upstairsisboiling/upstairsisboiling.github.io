@@ -2,6 +2,7 @@
   "theme": "zen",
   "language": "en",
   "url": "https://upstairsisboiling.com",
+  "cname": "upstairsisboiling.com",
   "rss": "on",
   "ignorePaths": [
     ".git",

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Upstairs is boiling | performance</title>
+        <link>https://upstairsisboiling.com/performance</link>
+        <description>performance category on Upstairs is boiling</description>
+        <language>en</language>
+        <image>
+            <title>Upstairs is boiling</title>
+            <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
+            <link>https://upstairsisboiling.com</link>
+        </image>
+        <category>album</category>
+        <category>concert</category>
+        <category>performance</category>
+        <category>single</category>
+        <lastBuildDate>Fri Aug 16 2024 01:47:44 GMT+0300 (GMT+03:00)</lastBuildDate>
+        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <generator>writ-cms</generator>
+        <atom:link href="https://upstairsisboiling.com/performance/feed.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title><![CDATA[Live at Jazzpod]]></title>
+            <link>https://upstairsisboiling.com/performance/live-at-jazzpod</link>
+            <guid>https://upstairsisboiling.com/performance/live-at-jazzpod</guid>
+            <pubDate>Wed, 07 Aug 2024 21:00:00 GMT</pubDate>
+            <description><![CDATA[]]></description>
+            <content:encoded><![CDATA[<p>Lorem sit corporis quas amet quia Sint non maxime at eveniet ipsam, quibusdam! Eveniet molestias iusto quae molestias magni. Fugiat obcaecati adipisci sit delectus consequatur Adipisci ducimus fuga reprehenderit delectus</p>
+<p><img src="https://upstairsisboiling.com/performance/live-at-jazzpod/IMG_1584.JPG" alt="Photo showing the upstairs is boiling performing at Jazzpod"></p>
+<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
+<p>Lorem numquam sapiente est saepe fuga obcaecati sint quo Voluptates eveniet voluptatem similique exercitationem porro quis deserunt Quibusdam voluptates asperiores soluta rem voluptate? Qui totam consequuntur sed error eius. Distinctio! Ipsum aperiam ad officiis dignissimos laudantium. Tempore natus dicta eum nisi eligendi Esse magnam quod assumenda?</p>
+<p>Consectetur ullam voluptatibus maiores cum ad. Beatae dignissimos ducimus aut maiores asperiores reiciendis Illo in labore tempora quis corporis! Impedit corrupti cupiditate in consequuntur quia Deleniti minima distinctio quia sunt. Consectetur dolores veritatis officiis corrupti dolorem fugiat Impedit ad distinctio modi quod excepturi? Nesciunt quaerat sint commodi repudiandae voluptas perferendis! Aliquid hic nemo labore at sunt Numquam quibusdam sed perspiciatis?</p>
+<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
+]]></content:encoded>
+        </item>
+    </channel>
+</rss>

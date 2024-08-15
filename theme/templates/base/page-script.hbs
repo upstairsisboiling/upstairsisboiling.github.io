@@ -64,8 +64,30 @@
     black: '',
     white: '',
     logoColor: '',
-    accentColor: ''
+    accentColor: '',
+    backgroundColor: ''
   })
+
+  if (window.innerWidth < 960) {
+    menuButton.ariaExpanded = 'false'
+  }
+
+  const MENU_COLLAPSE_ANIMATION_DURATION = 500
+
+  menuButton.addEventListener('click', () => {
+    if (menuButton.ariaExpanded === 'true') {
+      menuButton.ariaExpanded = 'false'
+      headerMenu.classList.add('collapsing')
+      setTimeout(() => {
+        headerMenu.classList.remove('collapsing')
+        headerMenu.classList.toggle('visible')
+      }, MENU_COLLAPSE_ANIMATION_DURATION)
+    } else {
+      menuButton.ariaExpanded = 'true'
+      headerMenu.classList.toggle('visible')
+    }
+  })
+
 
 
 {{#if (isPostPage)}}

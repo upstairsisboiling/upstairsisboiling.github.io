@@ -1,4 +1,17 @@
 module.exports = {
+  menuItems() {
+    return [
+      ...this.subpages.map(sp => ({
+        permalink: sp.permalink,
+        title: sp.title
+      })),
+      ...this.categories.map(cat => ({
+        permalink: cat.permalink,
+        title: cat.plural || cat.name
+      }))
+    ]
+  },
+
   singularCategoryName(category) {
     return category.singular || category.name
   },
@@ -53,6 +66,7 @@ module.exports = {
     // keys can come from context or entry
     const logoColor = this.logoColor || entry.logoColor
     const accentColor = this.accentColor || entry.accentColor
+    const backgroundColor = this.backgroundColor || entry.backgroundColor
 
     const quote = (str) => {
       return `'${str.replace(/(^"|^'|"$|'$)/g, '')}'`
@@ -64,7 +78,8 @@ module.exports = {
         ...(window.themeVariables || []),
         {
           logoColor: ${quote(logoColor || '')},
-          accentColor: ${quote(accentColor || '')}
+          accentColor: ${quote(accentColor || '')},
+          backgroundColor: ${quote(backgroundColor || '')},
         }
       ]
       </script>

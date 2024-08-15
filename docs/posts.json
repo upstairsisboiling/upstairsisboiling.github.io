@@ -90,31 +90,30 @@
     "date": "08.08.2024",
     "backgroundColor": "#1f1c19",
     "textColor": "#faead6",
-    "accentColor": "#faead6",
-    "logoColor": "palevioletred",
+    "accentColor": "palevioletred",
     "youtube": "https://www.youtube.com/watch?v=LiNJG00UcIA",
     "slug": "live-at-jazzpod",
-    "permalink": "/event/live-at-jazzpod",
+    "permalink": "/performance/live-at-jazzpod",
     "category": {
       "type": "basic",
-      "name": "event",
+      "name": "performance",
       "content": "",
       "summary": "",
       "mentions": [],
-      "plural": "events",
-      "singular": "event",
-      "slug": "event",
-      "permalink": "/event",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
+      "plural": "performances",
+      "singular": "performance",
+      "slug": "performance",
+      "permalink": "/performance",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/performance/index.html",
       "localAssets": []
     },
-    "path": "event/Live at Jazzpod/post.md",
-    "handle": "event/Live at Jazzpod",
+    "path": "performance/Live at Jazzpod/post.md",
+    "handle": "performance/Live at Jazzpod",
     "foldered": true,
     "localAssets": [
       {
         "name": "IMG_1584.JPG",
-        "path": "event/Live at Jazzpod/IMG_1584.JPG",
+        "path": "performance/Live at Jazzpod/IMG_1584.JPG",
         "depth": 2,
         "extension": ".JPG",
         "isFolder": false,
@@ -127,79 +126,6 @@
     "publishDateLong": "August 8, 2024",
     "publishDateMedium": "Aug 8, 2024",
     "publishDateShort": "8/8/24",
-    "links": {
-      "previousPost": {
-        "title": "The last meetup",
-        "permalink": "/event/the-last-meetup"
-      },
-      "relevantPosts": [
-        {
-          "title": "The last meetup",
-          "permalink": "/event/the-last-meetup",
-          "category": {
-            "type": "basic",
-            "name": "event",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "events",
-            "singular": "event",
-            "slug": "event",
-            "permalink": "/event",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
-    "type": "text",
-    "title": "Hola",
-    "cover": "/misc/hola/tian-shan-4.jpg",
-    "media": "",
-    "summary": "",
-    "tags": [],
-    "date": "06.16.2024",
-    "backgroundColor": "pink",
-    "textColor": "black",
-    "logoColor": "#4352cc",
-    "accentColor": "crimson",
-    "slug": "hola",
-    "permalink": "/misc/hola",
-    "category": {
-      "type": "basic",
-      "name": "misc",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "slug": "misc",
-      "permalink": "/misc",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/misc/index.html",
-      "localAssets": []
-    },
-    "path": "misc/Hola/post.md",
-    "handle": "misc/Hola",
-    "foldered": true,
-    "localAssets": [
-      {
-        "name": "tian-shan-4.jpg",
-        "path": "misc/Hola/tian-shan-4.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      }
-    ],
-    "publishDate": "2024-06-15T21:00:00.000Z",
-    "publishDateUTC": "Sat, 15 Jun 2024 21:00:00 GMT",
-    "publishDateFull": "Sunday, June 16, 2024",
-    "publishDateLong": "June 16, 2024",
-    "publishDateMedium": "Jun 16, 2024",
-    "publishDateShort": "6/16/24",
     "links": {
       "relevantPosts": [],
       "mentionedTo": [],
@@ -217,8 +143,8 @@
     "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
     "date": "03.21.2024",
     "textColor": "white",
+    "accentColor": "#fdbe39",
     "backgroundColor": "rebeccapurple",
-    "accentColor": "blanchedalmond",
     "slug": "mona",
     "permalink": "/single/mona",
     "category": {
@@ -283,89 +209,6 @@
     }
   },
   {
-    "type": "event",
-    "title": "The last meetup",
-    "cover": "/event/the-last-meetup/himalaya-11.jpg",
-    "media": "",
-    "summary": "<p>Sit eaque fuga sunt molestias impedit, commodi. Corrupti aperiam tempore a omnis illum optio, porro.</p>\n<p>Tenetur unde rem vero repudiandae molestiae! Perspiciatis quis facilis eius dolore iste dolores ipsam. Sapiente?</p>\n",
-    "tags": [],
-    "date": "01.26.2024",
-    "backgroundColor": "#7df2c6",
-    "textColor": "black",
-    "logoColor": "white",
-    "coverStyle": "abstract",
-    "slug": "the-last-meetup",
-    "permalink": "/event/the-last-meetup",
-    "category": {
-      "type": "basic",
-      "name": "event",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "events",
-      "singular": "event",
-      "slug": "event",
-      "permalink": "/event",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
-      "localAssets": []
-    },
-    "path": "event/The last meetup/post.md",
-    "handle": "event/The last meetup",
-    "foldered": true,
-    "localAssets": [
-      {
-        "name": "convergence.jpg",
-        "path": "event/The last meetup/convergence.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      },
-      {
-        "name": "himalaya-11.jpg",
-        "path": "event/The last meetup/himalaya-11.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      }
-    ],
-    "publishDate": "2024-01-25T21:00:00.000Z",
-    "publishDateUTC": "Thu, 25 Jan 2024 21:00:00 GMT",
-    "publishDateFull": "Friday, January 26, 2024",
-    "publishDateLong": "January 26, 2024",
-    "publishDateMedium": "Jan 26, 2024",
-    "publishDateShort": "1/26/24",
-    "links": {
-      "nextPost": {
-        "title": "Live at Jazzpod",
-        "permalink": "/event/live-at-jazzpod"
-      },
-      "relevantPosts": [
-        {
-          "title": "Live at Jazzpod",
-          "permalink": "/event/live-at-jazzpod",
-          "category": {
-            "type": "basic",
-            "name": "event",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "events",
-            "singular": "event",
-            "slug": "event",
-            "permalink": "/event",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/event/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
     "type": "album",
     "title": "Ona yakın",
     "cover": "/album/ona-yakin/ona yakın mobil.png",
@@ -377,7 +220,7 @@
     "date": "11.22.2023",
     "textColor": "white",
     "backgroundColor": "palevioletred",
-    "accentColor": "navajowhite",
+    "accentColor": "white",
     "slug": "ona-yakin",
     "permalink": "/album/ona-yakin",
     "category": {

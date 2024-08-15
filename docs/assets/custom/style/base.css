@@ -17,6 +17,12 @@ img {
     vertical-align: middle;
 }
 
+button {
+    background: none;
+    border: none;
+    font: inherit;
+}
+
 [data-region-id="container"] {}
 
 [data-region-id="header"] {
@@ -29,6 +35,7 @@ img {
 
 .Page-post [data-region-id="header"] {
     position: fixed;
+    z-index: 1;
 }
 
 .Page-category [data-region-id="header"] {
