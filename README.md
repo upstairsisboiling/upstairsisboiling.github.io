@@ -126,7 +126,7 @@ writ-cms by using a hook for customizing the content model.
 
 
 <details>
-<summary><h2>Releasing changes to website:</h2></summary>
+<summary><h2>Releasing changes to website</h2></summary>
 
 - Stop the preview
 - Build final output: `npm run build`
