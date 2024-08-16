@@ -81,7 +81,7 @@ Everything theme-related resides inside `theme` folder.
 
 #### Making quick changes
 
-You can quickly make changes to the theme using `scripts.js`, `style.css` and `theme-settings.css`.
+You can quickly make changes to the theme using `script.js`, `style.css` and `theme-settings.css`.
 
 `scripts.js` and `style.css` recognize `theme/assets/custom` as the current directory.
 
