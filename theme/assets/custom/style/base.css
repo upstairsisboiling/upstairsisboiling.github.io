@@ -33,8 +33,8 @@ button {
     position: absolute;
 }
 
-.Page-post [data-region-id="header"] {
-.Page-category [data-region-id="header"] {
+.Page-post [data-region-id="header"],
+.Page-category [data-region-id="header"],
 .Page-subpage [data-region-id="header"] {
     position: fixed;
     z-index: 1;
