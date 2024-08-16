@@ -12,8 +12,17 @@
     "slug": "ana-akim",
     "permalink": "/album/ana-akim",
     "category": {
+      "type": "basic",
       "name": "album",
-      "permalink": "/album"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "albums",
+      "singular": "album",
+      "slug": "album",
+      "permalink": "/album",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+      "localAssets": []
     },
     "path": "album/Ân'a akım/post.md",
     "handle": "album/Ân'a akım",
@@ -47,7 +56,26 @@
         "title": "Ona yakın",
         "permalink": "/album/ona-yakin"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Ona yakın",
+          "permalink": "/album/ona-yakin",
+          "category": {
+            "type": "basic",
+            "name": "album",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "albums",
+            "singular": "album",
+            "slug": "album",
+            "permalink": "/album",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -62,8 +90,17 @@
     "slug": "a-concerto",
     "permalink": "/concert/a-concerto",
     "category": {
+      "type": "basic",
       "name": "concert",
-      "permalink": "/concert"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "concerts",
+      "singular": "concert",
+      "slug": "concert",
+      "permalink": "/concert",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/concert/index.html",
+      "localAssets": []
     },
     "path": "concert/A Concerto/post.md",
     "handle": "concert/A Concerto",
@@ -96,8 +133,17 @@
     "slug": "live-at-jazzpod",
     "permalink": "/performance/live-at-jazzpod",
     "category": {
+      "type": "basic",
       "name": "performance",
-      "permalink": "/performance"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "performances",
+      "singular": "performance",
+      "slug": "performance",
+      "permalink": "/performance",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/performance/index.html",
+      "localAssets": []
     },
     "path": "performance/Live at Jazzpod/post.md",
     "handle": "performance/Live at Jazzpod",
@@ -140,8 +186,17 @@
     "slug": "mona",
     "permalink": "/single/mona",
     "category": {
+      "type": "basic",
       "name": "single",
-      "permalink": "/single"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "singles",
+      "singular": "single",
+      "slug": "single",
+      "permalink": "/single",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+      "localAssets": []
     },
     "path": "single/Mona/post.md",
     "handle": "single/Mona",
@@ -167,7 +222,26 @@
         "title": "Lisa",
         "permalink": "/single/lisa.html"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Lisa",
+          "permalink": "/single/lisa.html",
+          "category": {
+            "type": "basic",
+            "name": "single",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "singles",
+            "singular": "single",
+            "slug": "single",
+            "permalink": "/single",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -188,8 +262,17 @@
     "slug": "ona-yakin",
     "permalink": "/album/ona-yakin",
     "category": {
+      "type": "basic",
       "name": "album",
-      "permalink": "/album"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "albums",
+      "singular": "album",
+      "slug": "album",
+      "permalink": "/album",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+      "localAssets": []
     },
     "path": "album/On'a yakın/post.md",
     "handle": "album/On'a yakın",
@@ -215,7 +298,26 @@
         "title": "Ân'a akım",
         "permalink": "/album/ana-akim"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Ân'a akım",
+          "permalink": "/album/ana-akim",
+          "category": {
+            "type": "basic",
+            "name": "album",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "albums",
+            "singular": "album",
+            "slug": "album",
+            "permalink": "/album",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }
@@ -232,8 +334,17 @@
     "slug": "lisa",
     "permalink": "/single/lisa.html",
     "category": {
+      "type": "basic",
       "name": "single",
-      "permalink": "/single"
+      "content": "",
+      "summary": "",
+      "mentions": [],
+      "plural": "singles",
+      "singular": "single",
+      "slug": "single",
+      "permalink": "/single",
+      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+      "localAssets": []
     },
     "path": "single/Lisa.md",
     "handle": "single/Lisa",
@@ -250,7 +361,26 @@
         "title": "Mona",
         "permalink": "/single/mona"
       },
-      "relevantPosts": [],
+      "relevantPosts": [
+        {
+          "title": "Mona",
+          "permalink": "/single/mona",
+          "category": {
+            "type": "basic",
+            "name": "single",
+            "content": "",
+            "summary": "",
+            "mentions": [],
+            "plural": "singles",
+            "singular": "single",
+            "slug": "single",
+            "permalink": "/single",
+            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
+            "localAssets": []
+          },
+          "relevancyScore": 3
+        }
+      ],
       "mentionedTo": [],
       "mentionedBy": []
     }

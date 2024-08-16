@@ -34,11 +34,8 @@ button {
 }
 
 .Page-post [data-region-id="header"] {
-    position: fixed;
-    z-index: 1;
-}
-
 .Page-category [data-region-id="header"] {
+.Page-subpage [data-region-id="header"] {
     position: fixed;
     z-index: 1;
 }
