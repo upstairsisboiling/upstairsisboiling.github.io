@@ -6,12 +6,12 @@
     text-align: center;
 }
 
-.Page-post .header-logo {
+:where(.Page-post, .Page-subpage) .header-logo {
     background: var(--background-color);
 }
 
 @media (min-width: 960px) {
-    .Page-post [data-region-id=header] {
+    :where(.Page-post, .Page-subpage) [data-region-id=header] {
         position: absolute;
     }
 }
@@ -68,7 +68,7 @@
         display: inline-block;
     }
 
-    .Page-post .header-logo {
+    :where(.Page-post, .Page-subpage) .header-logo {
         background: none;
     }
 
