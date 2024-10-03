@@ -4,7 +4,7 @@ title: Ân'a akım
 cover: kapak.jpg
 coverAlt: "This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world."
 spotify: https://open.spotify.com/album/4oEbEgHnYkyS2YSAX7uBwb
-date: 08.17.2024
+date: 10.01.2024
 summary: ''
 ---
 This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world.

@@ -1,0 +1,25 @@
+{{#with subpage}}
+<article class="subpage subpage--basic">
+    <section class="grid-card grid-card-wide">
+        <div class="subpage-content">
+            
+            {{#if cover}}
+            <img
+                class="subpage-cover {{#if coverShape}}shape-{{coverShape}}{{/if}}"
+                {{#if coverPosition}}
+                style="--cover-position: {{coverPosition}};"
+                {{/if}}
+                src="{{cover}}"
+                alt="{{coverAlt}}">
+            {{/if}}
+            
+            {{> @partial-block .. }}
+
+            {{#if youtube}}
+            <iframe class="subpage-youtube" src="{{toYoutubeEmbedURL youtube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {{/if}}
+        </div>
+    </section>
+    {{>pages/subpage/footer}}
+</article>
+{{/with}}

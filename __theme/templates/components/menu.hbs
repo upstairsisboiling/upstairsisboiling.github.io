@@ -1,0 +1,20 @@
+<button
+    type="button"
+    id="menuButton"
+    aria-controls=""
+    aria-haspopup="menu"
+    aria-expanded="true"
+    aria-controls="headerMenu"
+    arial-label="open menu"
+    class="header-menu-button"
+>
+    <svg class="header-menu-button-icon" aria-hidden="true">
+      <use xlink:href="#menu2-symbol"></use>
+    </svg>
+</button>
+
+<nav class="header-menu" role="menu" id="headerMenu">
+    {{#each (menuItems)}}
+    <a class="header-menu-link" style="--i: {{@index}}" href="{{permalink}}">{{title}}</a>
+    {{/each}}
+</nav>
