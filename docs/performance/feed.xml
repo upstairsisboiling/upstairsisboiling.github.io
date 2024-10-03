@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Upstairs is boiling | performance</title>
+        <title>upstairsisboiling.github.io | performance</title>
         <link>https://upstairsisboiling.com/performance</link>
-        <description>performance category on Upstairs is boiling</description>
+        <description>performance category on upstairsisboiling.github.io</description>
         <language>en</language>
         <image>
-            <title>Upstairs is boiling</title>
+            <title>upstairsisboiling.github.io</title>
             <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
             <link>https://upstairsisboiling.com</link>
         </image>
@@ -14,8 +14,8 @@
         <category>concert</category>
         <category>performance</category>
         <category>single</category>
-        <lastBuildDate>Mon Aug 19 2024 01:56:30 GMT+0300 (GMT+03:00)</lastBuildDate>
-        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <lastBuildDate>Thu Oct 03 2024 08:49:05 GMT+0100 (British Summer Time)</lastBuildDate>
+        <copyright>All rights reserved 2024, upstairsisboiling.github.io</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
         <atom:link href="https://upstairsisboiling.com/performance/feed.xml" rel="self" type="application/rss+xml" />
@@ -23,14 +23,31 @@
             <title><![CDATA[Live at Jazzpod]]></title>
             <link>https://upstairsisboiling.com/performance/live-at-jazzpod</link>
             <guid>https://upstairsisboiling.com/performance/live-at-jazzpod</guid>
-            <pubDate>Wed, 07 Aug 2024 21:00:00 GMT</pubDate>
+            <pubDate>Wed, 07 Aug 2024 23:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[<p>Lorem sit corporis quas amet quia Sint non maxime at eveniet ipsam, quibusdam! Eveniet molestias iusto quae molestias magni. Fugiat obcaecati adipisci sit delectus consequatur Adipisci ducimus fuga reprehenderit delectus</p>
+            <content:encoded><![CDATA[<p>Is it possible to create a musical conversation in that moment, right then and there, that both the performers and the listeners can genuinely enjoy? The answer is: sometimes. Sometimes music seems to happen by accident. And in those &quot;sometimes,&quot; it is possible to hear something truly delicate and graceful. Upstairs is Boiling tries to find that resonance within and beyond. This time the great performer Melisa Diktaş dances with the crew at a beautiful rooftop, Jazz Pod at Taksim, Istanbul.</p>
 <p><img src="https://upstairsisboiling.com/performance/live-at-jazzpod/IMG_1584.JPG" alt="Photo showing the upstairs is boiling performing at Jazzpod"></p>
-<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
-<p>Lorem numquam sapiente est saepe fuga obcaecati sint quo Voluptates eveniet voluptatem similique exercitationem porro quis deserunt Quibusdam voluptates asperiores soluta rem voluptate? Qui totam consequuntur sed error eius. Distinctio! Ipsum aperiam ad officiis dignissimos laudantium. Tempore natus dicta eum nisi eligendi Esse magnam quod assumenda?</p>
-<p>Consectetur ullam voluptatibus maiores cum ad. Beatae dignissimos ducimus aut maiores asperiores reiciendis Illo in labore tempora quis corporis! Impedit corrupti cupiditate in consequuntur quia Deleniti minima distinctio quia sunt. Consectetur dolores veritatis officiis corrupti dolorem fugiat Impedit ad distinctio modi quod excepturi? Nesciunt quaerat sint commodi repudiandae voluptas perferendis! Aliquid hic nemo labore at sunt Numquam quibusdam sed perspiciatis?</p>
-<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
+<p>Follow Upstairs is Boiling on Instagram: <a href="https://www.instagram.com/upstairsisb">https://www.instagram.com/upstairsisb</a>...
+Follow us on Instagram:   / idgk.tv  </p>
+<p>SETLIST:
+00:00 Stupid Cat
+06:23 Please pick up your phone
+09:03 Birds crwth
+18:16 Welcome to the Galaxy</p>
+<p>Upstairs is Boiling: 
+Piano, keyboards, sax, and joy: Onur Nevşehir
+Vocals, trumpet, and enthusiasm: Seçil Metin
+Drums and ease: Atilla Ozan Keskin
+Synthesizers, wind instruments, and seriousness: Tarık Akyol
+Double bass and groove: Alp Erdoğmuş
+Dance and magic: Melisa Diktaş
+Recording: Mert Aksuna
+Photos: Meltem Satıloğlu and Özlem İnan
+Venue: Jazzpod</p>
+<p>IDGK:
+Director, Film Editor: Alena Verbitskaia
+Camera Operators: Berk Uslu, Vlad Shuravin
+Audio: Ercan Bektaş Ülger</p>
 ]]></content:encoded>
         </item>
     </channel>

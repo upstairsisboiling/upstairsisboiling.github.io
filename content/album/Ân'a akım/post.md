@@ -2,13 +2,29 @@
 type: album
 title: Ân'a akım
 cover: kapak.jpg
-coverAlt: "An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."
-spotify: https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie
+coverAlt: "This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world."
+spotify: https://open.spotify.com/album/4oEbEgHnYkyS2YSAX7uBwb
 date: 08.17.2024
 summary: ''
 ---
-Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.
+This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world.
 
-Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.
+Their time spent together, without conflict or competition, revealed a sense of ease within them. Moving away from general ideas and definitions, they began to produce sounds they themselves would enjoy listening to. They created musical spaces for each other. Their music is carefree and spontaneous.
 
-Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.
+For this reason, it is bold, with art as its sole intention.
+Can music be recorded? It is unclear, but some moments can turn into music and be captured.
+
+The entire album was played, composed, and sung at the same time. This is the reason behind its existence.
+
+Ân'a Akım is like breaking away from the highways and plunging into the forest, setting up camp somewhere close to the city, not too far in. It is a gentle attempt.
+credits
+released October 1, 2024
+
+Tarık Akyol: analog synthesizer, sampler
+Onur Nevşehir: piano, synthesizer
+Seçil Metin: vocals, trumpet
+Atilla Ozan Keskin: drums
+Can Kuman: mix / master
+Hazal Günal: visuals
+
+@Reforestation

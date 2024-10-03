@@ -6,8 +6,8 @@
     "media": "",
     "summary": "",
     "tags": [],
-    "coverAlt": "An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'.",
-    "spotify": "https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie",
+    "coverAlt": "This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world.",
+    "spotify": "https://open.spotify.com/album/4oEbEgHnYkyS2YSAX7uBwb",
     "date": "08.17.2024",
     "slug": "ana-akim",
     "permalink": "/album/ana-akim",
@@ -21,7 +21,7 @@
       "singular": "album",
       "slug": "album",
       "permalink": "/album",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
+      "outputPath": "/Users/tarikakyol/Developer/Reforestation/Code/upstairsisboiling.github.io/docs/album/index.html",
       "localAssets": []
     },
     "path": "album/Ân'a akım/post.md",
@@ -45,73 +45,12 @@
         "type": "localAsset"
       }
     ],
-    "publishDate": "2024-08-16T21:00:00.000Z",
-    "publishDateUTC": "Fri, 16 Aug 2024 21:00:00 GMT",
+    "publishDate": "2024-08-16T23:00:00.000Z",
+    "publishDateUTC": "Fri, 16 Aug 2024 23:00:00 GMT",
     "publishDateFull": "Saturday, August 17, 2024",
     "publishDateLong": "August 17, 2024",
     "publishDateMedium": "Aug 17, 2024",
     "publishDateShort": "8/17/24",
-    "links": {
-      "previousPost": {
-        "title": "Ona yakın",
-        "permalink": "/album/ona-yakin"
-      },
-      "relevantPosts": [
-        {
-          "title": "Ona yakın",
-          "permalink": "/album/ona-yakin",
-          "category": {
-            "type": "basic",
-            "name": "album",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "albums",
-            "singular": "album",
-            "slug": "album",
-            "permalink": "/album",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
-    "type": "text",
-    "title": "A Concerto",
-    "cover": "",
-    "media": "",
-    "summary": "<p>This is a concert</p>\n<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>\n<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>\n",
-    "tags": [],
-    "slug": "a-concerto",
-    "permalink": "/concert/a-concerto",
-    "category": {
-      "type": "basic",
-      "name": "concert",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "concerts",
-      "singular": "concert",
-      "slug": "concert",
-      "permalink": "/concert",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/concert/index.html",
-      "localAssets": []
-    },
-    "path": "concert/A Concerto/post.md",
-    "handle": "concert/A Concerto",
-    "foldered": true,
-    "localAssets": [],
-    "publishDate": "2024-08-15T22:55:50.630Z",
-    "publishDateUTC": "Thu, 15 Aug 2024 22:55:50 GMT",
-    "publishDateFull": "Friday, August 16, 2024",
-    "publishDateLong": "August 16, 2024",
-    "publishDateMedium": "Aug 16, 2024",
-    "publishDateShort": "8/16/24",
     "links": {
       "relevantPosts": [],
       "mentionedTo": [],
@@ -142,7 +81,7 @@
       "singular": "performance",
       "slug": "performance",
       "permalink": "/performance",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/performance/index.html",
+      "outputPath": "/Users/tarikakyol/Developer/Reforestation/Code/upstairsisboiling.github.io/docs/performance/index.html",
       "localAssets": []
     },
     "path": "performance/Live at Jazzpod/post.md",
@@ -158,229 +97,14 @@
         "type": "localAsset"
       }
     ],
-    "publishDate": "2024-08-07T21:00:00.000Z",
-    "publishDateUTC": "Wed, 07 Aug 2024 21:00:00 GMT",
+    "publishDate": "2024-08-07T23:00:00.000Z",
+    "publishDateUTC": "Wed, 07 Aug 2024 23:00:00 GMT",
     "publishDateFull": "Thursday, August 8, 2024",
     "publishDateLong": "August 8, 2024",
     "publishDateMedium": "Aug 8, 2024",
     "publishDateShort": "8/8/24",
     "links": {
       "relevantPosts": [],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
-    "type": "single",
-    "title": "Mona",
-    "cover": "/single/mona/cover.jpg",
-    "media": "",
-    "summary": "",
-    "tags": [],
-    "coverAlt": "Kapak",
-    "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
-    "date": "03.21.2024",
-    "textColor": "white",
-    "accentColor": "#fdbe39",
-    "backgroundColor": "rebeccapurple",
-    "slug": "mona",
-    "permalink": "/single/mona",
-    "category": {
-      "type": "basic",
-      "name": "single",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "singles",
-      "singular": "single",
-      "slug": "single",
-      "permalink": "/single",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-      "localAssets": []
-    },
-    "path": "single/Mona/post.md",
-    "handle": "single/Mona",
-    "foldered": true,
-    "localAssets": [
-      {
-        "name": "cover.jpg",
-        "path": "single/Mona/cover.jpg",
-        "depth": 2,
-        "extension": ".jpg",
-        "isFolder": false,
-        "type": "localAsset"
-      }
-    ],
-    "publishDate": "2024-03-20T21:00:00.000Z",
-    "publishDateUTC": "Wed, 20 Mar 2024 21:00:00 GMT",
-    "publishDateFull": "Thursday, March 21, 2024",
-    "publishDateLong": "March 21, 2024",
-    "publishDateMedium": "Mar 21, 2024",
-    "publishDateShort": "3/21/24",
-    "links": {
-      "previousPost": {
-        "title": "Lisa",
-        "permalink": "/single/lisa.html"
-      },
-      "relevantPosts": [
-        {
-          "title": "Lisa",
-          "permalink": "/single/lisa.html",
-          "category": {
-            "type": "basic",
-            "name": "single",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "singles",
-            "singular": "single",
-            "slug": "single",
-            "permalink": "/single",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
-    "type": "album",
-    "title": "Ona yakın",
-    "cover": "/album/ona-yakin/ona yakın mobil.png",
-    "media": "",
-    "summary": "",
-    "tags": [],
-    "coverAlt": "Mobil mockup",
-    "spotify": "https://open.spotify.com/album/2P4oefrZZ6uOFsrykOusie",
-    "date": "11.22.2023",
-    "textColor": "white",
-    "backgroundColor": "palevioletred",
-    "accentColor": "white",
-    "slug": "ona-yakin",
-    "permalink": "/album/ona-yakin",
-    "category": {
-      "type": "basic",
-      "name": "album",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "albums",
-      "singular": "album",
-      "slug": "album",
-      "permalink": "/album",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-      "localAssets": []
-    },
-    "path": "album/On'a yakın/post.md",
-    "handle": "album/On'a yakın",
-    "foldered": true,
-    "localAssets": [
-      {
-        "name": "ona yakın mobil.png",
-        "path": "album/On'a yakın/ona yakın mobil.png",
-        "depth": 2,
-        "extension": ".png",
-        "isFolder": false,
-        "type": "localAsset"
-      }
-    ],
-    "publishDate": "2023-11-21T21:00:00.000Z",
-    "publishDateUTC": "Tue, 21 Nov 2023 21:00:00 GMT",
-    "publishDateFull": "Wednesday, November 22, 2023",
-    "publishDateLong": "November 22, 2023",
-    "publishDateMedium": "Nov 22, 2023",
-    "publishDateShort": "11/22/23",
-    "links": {
-      "nextPost": {
-        "title": "Ân'a akım",
-        "permalink": "/album/ana-akim"
-      },
-      "relevantPosts": [
-        {
-          "title": "Ân'a akım",
-          "permalink": "/album/ana-akim",
-          "category": {
-            "type": "basic",
-            "name": "album",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "albums",
-            "singular": "album",
-            "slug": "album",
-            "permalink": "/album",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/album/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
-      "mentionedTo": [],
-      "mentionedBy": []
-    }
-  },
-  {
-    "type": "single",
-    "title": "Lisa",
-    "cover": "",
-    "media": "",
-    "summary": "",
-    "tags": [],
-    "spotify": "https://open.spotify.com/track/1Ma4fLShd0hpZSNH37mEkR",
-    "date": "09.21.2022",
-    "slug": "lisa",
-    "permalink": "/single/lisa.html",
-    "category": {
-      "type": "basic",
-      "name": "single",
-      "content": "",
-      "summary": "",
-      "mentions": [],
-      "plural": "singles",
-      "singular": "single",
-      "slug": "single",
-      "permalink": "/single",
-      "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-      "localAssets": []
-    },
-    "path": "single/Lisa.md",
-    "handle": "single/Lisa",
-    "foldered": false,
-    "localAssets": [],
-    "publishDate": "2022-09-20T21:00:00.000Z",
-    "publishDateUTC": "Tue, 20 Sep 2022 21:00:00 GMT",
-    "publishDateFull": "Wednesday, September 21, 2022",
-    "publishDateLong": "September 21, 2022",
-    "publishDateMedium": "Sep 21, 2022",
-    "publishDateShort": "9/21/22",
-    "links": {
-      "nextPost": {
-        "title": "Mona",
-        "permalink": "/single/mona"
-      },
-      "relevantPosts": [
-        {
-          "title": "Mona",
-          "permalink": "/single/mona",
-          "category": {
-            "type": "basic",
-            "name": "single",
-            "content": "",
-            "summary": "",
-            "mentions": [],
-            "plural": "singles",
-            "singular": "single",
-            "slug": "single",
-            "permalink": "/single",
-            "outputPath": "/Users/enes/code/Upstairs is boiling/docs/single/index.html",
-            "localAssets": []
-          },
-          "relevancyScore": 3
-        }
-      ],
       "mentionedTo": [],
       "mentionedBy": []
     }

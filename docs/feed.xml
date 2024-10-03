@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Upstairs is boiling</title>
+        <title>upstairsisboiling.github.io</title>
         <link>https://upstairsisboiling.com</link>
         <description>A future work</description>
         <language>en</language>
         <image>
-            <title>Upstairs is boiling</title>
+            <title>upstairsisboiling.github.io</title>
             <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
             <link>https://upstairsisboiling.com</link>
         </image>
@@ -14,8 +14,8 @@
         <category>concert</category>
         <category>performance</category>
         <category>single</category>
-        <lastBuildDate>Sun, 18 Aug 2024 22:56:30 GMT</lastBuildDate>
-        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <lastBuildDate>Thu, 03 Oct 2024 07:49:05 GMT</lastBuildDate>
+        <copyright>All rights reserved 2024, upstairsisboiling.github.io</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
         <atom:link href="https://upstairsisboiling.com/feed.xml" rel="self" type="application/rss+xml" />
@@ -23,73 +23,58 @@
             <title><![CDATA[Ân'a akım]]></title>
             <link>https://upstairsisboiling.com/album/ana-akim</link>
             <guid>https://upstairsisboiling.com/album/ana-akim</guid>
-            <pubDate>Fri, 16 Aug 2024 21:00:00 GMT</pubDate>
+            <pubDate>Fri, 16 Aug 2024 23:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
             <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.com/album/ana-akim/kapak.jpg" alt="An abstract dancing humanoid is illustrated in vivid colors in a flat fashion. In amateur handwriting, it says: 'ANA AKIM'. In funky and warm typing, it says: 'upstairs is boiling'."></div>
-      <p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
-<p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
-<p>Sit et ipsum illum natus beatae hic deserunt Porro a a nobis voluptate cupiditate. Fugit esse laborum quos sapiente in Quia reprehenderit amet obcaecati laboriosam alias. Voluptatibus asperiores aliquid amet.</p>
+      <div><img src="https://upstairsisboiling.com/album/ana-akim/kapak.jpg" alt="This album, Ân'a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world."></div>
+      <p>This album, Ân&#39;a Akım, was recorded and shared with the world in 2024 by a group of people who enjoy making music together in a studio in Kadıköy. The world taught them everything they know, and they, in turn, have shared some of what they learned with the world.</p>
+<p>Their time spent together, without conflict or competition, revealed a sense of ease within them. Moving away from general ideas and definitions, they began to produce sounds they themselves would enjoy listening to. They created musical spaces for each other. Their music is carefree and spontaneous.</p>
+<p>For this reason, it is bold, with art as its sole intention.
+Can music be recorded? It is unclear, but some moments can turn into music and be captured.</p>
+<p>The entire album was played, composed, and sung at the same time. This is the reason behind its existence.</p>
+<p>Ân&#39;a Akım is like breaking away from the highways and plunging into the forest, setting up camp somewhere close to the city, not too far in. It is a gentle attempt.
+credits
+released October 1, 2024</p>
+<p>Tarık Akyol: analog synthesizer, sampler
+Onur Nevşehir: piano, synthesizer
+Seçil Metin: vocals, trumpet
+Atilla Ozan Keskin: drums
+Can Kuman: mix / master
+Hazal Günal: visuals</p>
+<p>@Reforestation</p>
 
     ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[A Concerto]]></title>
-            <link>https://upstairsisboiling.com/concert/a-concerto</link>
-            <guid>https://upstairsisboiling.com/concert/a-concerto</guid>
-            <pubDate>Thu, 15 Aug 2024 22:55:50 GMT</pubDate>
-            <description><![CDATA[<p>This is a concert</p>
-<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>
-<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>This is a concert</p>
-<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>
-<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>
-]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Live at Jazzpod]]></title>
             <link>https://upstairsisboiling.com/performance/live-at-jazzpod</link>
             <guid>https://upstairsisboiling.com/performance/live-at-jazzpod</guid>
-            <pubDate>Wed, 07 Aug 2024 21:00:00 GMT</pubDate>
+            <pubDate>Wed, 07 Aug 2024 23:00:00 GMT</pubDate>
             <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[<p>Lorem sit corporis quas amet quia Sint non maxime at eveniet ipsam, quibusdam! Eveniet molestias iusto quae molestias magni. Fugiat obcaecati adipisci sit delectus consequatur Adipisci ducimus fuga reprehenderit delectus</p>
+            <content:encoded><![CDATA[<p>Is it possible to create a musical conversation in that moment, right then and there, that both the performers and the listeners can genuinely enjoy? The answer is: sometimes. Sometimes music seems to happen by accident. And in those &quot;sometimes,&quot; it is possible to hear something truly delicate and graceful. Upstairs is Boiling tries to find that resonance within and beyond. This time the great performer Melisa Diktaş dances with the crew at a beautiful rooftop, Jazz Pod at Taksim, Istanbul.</p>
 <p><img src="https://upstairsisboiling.com/performance/live-at-jazzpod/IMG_1584.JPG" alt="Photo showing the upstairs is boiling performing at Jazzpod"></p>
-<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
-<p>Lorem numquam sapiente est saepe fuga obcaecati sint quo Voluptates eveniet voluptatem similique exercitationem porro quis deserunt Quibusdam voluptates asperiores soluta rem voluptate? Qui totam consequuntur sed error eius. Distinctio! Ipsum aperiam ad officiis dignissimos laudantium. Tempore natus dicta eum nisi eligendi Esse magnam quod assumenda?</p>
-<p>Consectetur ullam voluptatibus maiores cum ad. Beatae dignissimos ducimus aut maiores asperiores reiciendis Illo in labore tempora quis corporis! Impedit corrupti cupiditate in consequuntur quia Deleniti minima distinctio quia sunt. Consectetur dolores veritatis officiis corrupti dolorem fugiat Impedit ad distinctio modi quod excepturi? Nesciunt quaerat sint commodi repudiandae voluptas perferendis! Aliquid hic nemo labore at sunt Numquam quibusdam sed perspiciatis?</p>
-<p>Amet sit officiis eum quisquam itaque quo Repudiandae nobis at aliquam non incidunt minima? Enim praesentium officiis totam deleniti inventore quos? Sequi laborum eum asperiores eligendi voluptatibus maxime adipisci fugit.</p>
+<p>Follow Upstairs is Boiling on Instagram: <a href="https://www.instagram.com/upstairsisb">https://www.instagram.com/upstairsisb</a>...
+Follow us on Instagram:   / idgk.tv  </p>
+<p>SETLIST:
+00:00 Stupid Cat
+06:23 Please pick up your phone
+09:03 Birds crwth
+18:16 Welcome to the Galaxy</p>
+<p>Upstairs is Boiling: 
+Piano, keyboards, sax, and joy: Onur Nevşehir
+Vocals, trumpet, and enthusiasm: Seçil Metin
+Drums and ease: Atilla Ozan Keskin
+Synthesizers, wind instruments, and seriousness: Tarık Akyol
+Double bass and groove: Alp Erdoğmuş
+Dance and magic: Melisa Diktaş
+Recording: Mert Aksuna
+Photos: Meltem Satıloğlu and Özlem İnan
+Venue: Jazzpod</p>
+<p>IDGK:
+Director, Film Editor: Alena Verbitskaia
+Camera Operators: Berk Uslu, Vlad Shuravin
+Audio: Ercan Bektaş Ülger</p>
 ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Mona]]></title>
-            <link>https://upstairsisboiling.com/single/mona</link>
-            <guid>https://upstairsisboiling.com/single/mona</guid>
-            <pubDate>Wed, 20 Mar 2024 21:00:00 GMT</pubDate>
-            <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.com/single/mona/cover.jpg" alt="Kapak"></div>
-      
-    ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Ona yakın]]></title>
-            <link>https://upstairsisboiling.com/album/ona-yakin</link>
-            <guid>https://upstairsisboiling.com/album/ona-yakin</guid>
-            <pubDate>Tue, 21 Nov 2023 21:00:00 GMT</pubDate>
-            <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[
-      <div><img src="https://upstairsisboiling.com/album/ona-yakin/ona%20yak%C4%B1n%20mobil.png" alt="Mobil mockup"></div>
-      
-    ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Lisa]]></title>
-            <link>https://upstairsisboiling.com/single/lisa.html</link>
-            <guid>https://upstairsisboiling.com/single/lisa.html</guid>
-            <pubDate>Tue, 20 Sep 2022 21:00:00 GMT</pubDate>
-            <description><![CDATA[]]></description>
-            <content:encoded><![CDATA[]]></content:encoded>
         </item>
     </channel>
 </rss>

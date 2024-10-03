@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Upstairs is boiling | concert</title>
+        <title>upstairsisboiling.github.io | concert</title>
         <link>https://upstairsisboiling.com/concert</link>
-        <description>concert category on Upstairs is boiling</description>
+        <description>concert category on upstairsisboiling.github.io</description>
         <language>en</language>
         <image>
-            <title>Upstairs is boiling</title>
+            <title>upstairsisboiling.github.io</title>
             <url>https://upstairsisboiling.com/assets/common/writ-icon-512.png</url>
             <link>https://upstairsisboiling.com</link>
         </image>
@@ -14,24 +14,10 @@
         <category>concert</category>
         <category>performance</category>
         <category>single</category>
-        <lastBuildDate>Mon Aug 19 2024 01:56:30 GMT+0300 (GMT+03:00)</lastBuildDate>
-        <copyright>All rights reserved 2024, Upstairs is boiling</copyright>
+        <lastBuildDate>Thu Oct 03 2024 08:49:05 GMT+0100 (British Summer Time)</lastBuildDate>
+        <copyright>All rights reserved 2024, upstairsisboiling.github.io</copyright>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <generator>writ-cms</generator>
         <atom:link href="https://upstairsisboiling.com/concert/feed.xml" rel="self" type="application/rss+xml" />
-        <item>
-            <title><![CDATA[A Concerto]]></title>
-            <link>https://upstairsisboiling.com/concert/a-concerto</link>
-            <guid>https://upstairsisboiling.com/concert/a-concerto</guid>
-            <pubDate>Thu, 15 Aug 2024 22:55:50 GMT</pubDate>
-            <description><![CDATA[<p>This is a concert</p>
-<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>
-<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>This is a concert</p>
-<p>Sit sapiente hic quas voluptatum cumque fuga Ratione est eveniet vitae consectetur rem exercitationem labore quisquam Molestiae nam incidunt suscipit sapiente nemo ducimus? Similique explicabo ipsa deserunt repellat est aliquam.</p>
-<p>Sit labore quibusdam iure itaque doloribus? Quaerat necessitatibus dignissimos ad aspernatur animi? Harum fugit sequi rem animi ducimus Eligendi aliquam culpa quos quos officia enim Aspernatur harum facere cumque amet.</p>
-]]></content:encoded>
-        </item>
     </channel>
 </rss>
