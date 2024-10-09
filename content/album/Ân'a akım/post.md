@@ -17,14 +17,15 @@ Can music be recorded? It is unclear, but some moments can turn into music and b
 The entire album was played, composed, and sung at the same time. This is the reason behind its existence.
 
 Ân'a Akım is like breaking away from the highways and plunging into the forest, setting up camp somewhere close to the city, not too far in. It is a gentle attempt.
-credits
-released October 1, 2024
 
-Tarık Akyol: analog synthesizer, sampler
-Onur Nevşehir: piano, synthesizer
-Seçil Metin: vocals, trumpet
-Atilla Ozan Keskin: drums
-Can Kuman: mix / master
-Hazal Günal: visuals
+credits  
+released October 1, 2024  
+
+Tarık Akyol: analog synthesizer, sampler  
+Onur Nevşehir: piano, synthesizer  
+Seçil Metin: vocals, trumpet  
+Atilla Ozan Keskin: drums  
+Can Kuman: mix / master  
+Hazal Günal: visuals  
 
 @Reforestation
