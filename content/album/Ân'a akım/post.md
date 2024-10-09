@@ -18,7 +18,6 @@ The entire album was played, composed, and sung at the same time. This is the re
 
 Ân'a Akım is like breaking away from the highways and plunging into the forest, setting up camp somewhere close to the city, not too far in. It is a gentle attempt.
 
-credits  
 released October 1, 2024  
 
 Tarık Akyol: analog synthesizer, sampler  
