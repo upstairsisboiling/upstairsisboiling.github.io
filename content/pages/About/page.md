@@ -1,6 +1,6 @@
 ---
 date: 10.03.2024
-cover: 'profile-photo.JPG'
+cover: 'profile-photo.jpg'
 backgroundColor: '#1f1c19'
 textColor: '#faead6'
 accentColor: palevioletred
