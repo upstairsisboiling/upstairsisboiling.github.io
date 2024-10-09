@@ -4,7 +4,7 @@
     --title-color: var(--text-color, var(--white));
     --accent-color: hotpink;
     --gap: min(5vw, 12vh);
-    --padding-top: 35dvw;
+    --padding-top: 30dvw;
     padding-top: var(--padding-top);
     min-height: 100dvh;
     padding-bottom: 2rem;
@@ -47,7 +47,7 @@
 }
 
 .post-title {
-    font-size: clamp(.1rem, 8rem, 12dvmin);
+    font-size: clamp(.08rem, 6rem, 7dvmin);
     font-family: "Montagu Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -84,11 +84,11 @@
 }
 
 .post-content {
-    font-size: clamp(1rem, 2rem, 4vmin);
+    font-size: clamp(1rem, 2rem, 3vmin);
 }
 
 .post-content p {
-    font-size: clamp(1.25rem, 2rem, 5vmin);
+    font-size: clamp(1.1rem, 1.5rem, 4vmin);
     padding: 1em 1em 0;
     line-height: 1.4;
     text-wrap: balance;
@@ -138,12 +138,6 @@
     justify-self: center;
     padding: 0 1em;
     box-sizing: border-box;
-}
-
-@media (min-height: 321px) {
-    .post {
-        --padding-top: 50dvw;
-    }
 }
 
 @media (min-width: 431px) {
