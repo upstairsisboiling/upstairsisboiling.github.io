@@ -10,27 +10,27 @@ Is it possible to create a musical conversation in that moment, right then and t
 
 ![Photo showing the upstairs is boiling performing at Jazzpod](IMG_1584.JPG)
 
-Follow Upstairs is Boiling on Instagram: https://www.instagram.com/upstairsisb...
-Follow us on Instagram:   / idgk.tv  
+Follow Upstairs is Boiling on Instagram: https://www.instagram.com/upstairsisboiling  
+Follow us on Instagram: https://www.instagram.com/idgk.tv  
 
-SETLIST:
-00:00 Stupid Cat
-06:23 Please pick up your phone
-09:03 Birds crwth
-18:16 Welcome to the Galaxy
+SETLIST:  
+00:00 Stupid Cat  
+06:23 Please pick up your phone  
+09:03 Birds crwth  
+18:16 Welcome to the Galaxy  
 
-Upstairs is Boiling: 
-Piano, keyboards, sax, and joy: Onur Nevşehir
-Vocals, trumpet, and enthusiasm: Seçil Metin
-Drums and ease: Atilla Ozan Keskin
-Synthesizers, wind instruments, and seriousness: Tarık Akyol
-Double bass and groove: Alp Erdoğmuş
-Dance and magic: Melisa Diktaş
-Recording: Mert Aksuna
-Photos: Meltem Satıloğlu and Özlem İnan
-Venue: Jazzpod
+Upstairs is Boiling:  
+Piano, keyboards, sax, and joy: Onur Nevşehir  
+Vocals, trumpet, and enthusiasm: Seçil Metin  
+Drums and ease: Atilla Ozan Keskin  
+Synthesizers, wind instruments, and seriousness: Tarık Akyol  
+Double bass and groove: Alp Erdoğmuş  
+Dance and magic: Melisa Diktaş  
+Recording: Mert Aksuna  
+Photos: Meltem Satıloğlu and Özlem İnan  
+Venue: Jazzpod  
 
-IDGK:
-Director, Film Editor: Alena Verbitskaia
-Camera Operators: Berk Uslu, Vlad Shuravin
-Audio: Ercan Bektaş Ülger
+IDGK:  
+Director, Film Editor: Alena Verbitskaia  
+Camera Operators: Berk Uslu, Vlad Shuravin  
+Audio: Ercan Bektaş Ülger  
