@@ -17,7 +17,7 @@
       <div class="post-content">
 
         {{#if cover}}
-          <a href="{{cover}}" target="_blank" class="post-cover {{#if coverStyle}}style-{{coverStyle}}{{/if}}">
+          <a href="{{permalink}}" class="post-cover {{#if coverStyle}}style-{{coverStyle}}{{/if}}">
             <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
           </a>
         {{/if}}
@@ -39,7 +39,7 @@
 
     {{#if cover}}
       <section class="grid-card {{isOnlyCard}}">
-      <a href="{{cover}}" target="_blank" class="post-cover">
+      <a href="{{permalink}}" class="post-cover">
         <img class="post-cover-image" src="{{cover}}" alt="{{coverAlt}}">
       </a>
       </section>
